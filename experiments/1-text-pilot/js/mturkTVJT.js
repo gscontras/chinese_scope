@@ -31,8 +31,8 @@ function make_slides(f) {
 	  
 
   	present : [
-  		{practice: {story: "This story features a smurf, a salesman and five cars. The smurf decided that he wanted to buy a car. First the salesman showed him a silver convertible. The smurf liked it and purchased it for two pennies. The salesman then showed him a yellow car. The smurf liked it and also purchased it for two pennies. The smurf only had one penny left, so he decided he was finished purchasing.", sentence: "\"The smurf bought two cars.\""}},
-  		{practice: {story: "This story features three dogs, a cat, and a table. The cat was asleep on the table, and the dogs decided to wake it up. The first dog jumped on the table, but the cat did not wake up. The second dog jumped on the table, but the cat still did not wake up. The third dog said he wasn't going to jump on the table because he was too small.", sentence: "\"All dogs jumped on the table.\""}},
+  		{practice: {story: "这个故事中有一个蓝精灵，一个售货员，和五辆车。蓝精灵想买一辆车。刚开始，售货员给他展示了一辆银色的敞篷汽车。蓝精灵很喜欢，并且用两便士买下了它。售货员又给他展示了一辆黄色的车。蓝精灵很喜欢，并且用两便士买下了它。蓝精灵只剩下一便士了，所以它决定结束购买。", sentence: "\"蓝精灵买了两辆车。\""}},
+  		{practice: {story: "这个故事中三只狗，一只猫，和一张桌子。猫在桌子上睡觉。狗们决定叫醒猫。第一只狗跳上了桌子，但是猫没有醒。第二只狗跳上了桌子，但是猫还是没有醒。第三只狗说他不跳上桌子，因为他太小。", sentence: "\"所有狗都跳上了桌子。\""}},
   	],
 
     //this gets run only at the beginning of the block
