@@ -19,6 +19,9 @@ d$proficiency = s$proficiency[match(d$workerid,s$workerid)]
 d$outsideLanguage = s$outsideLanguage[match(d$workerid,s$workerid)]
 d$homeLanguage = s$homeLanguage[match(d$workerid,s$workerid)]
 d$yearsLived = s$yearsLived[match(d$workerid,s$workerid)]
+d$comments = s$comments[match(d$workerid,s$workerid)]
+d$assess = s$assess[match(d$workerid,s$workerid)]
+
 
 # only lived both before and after 8 in Chinese-speaking country
 d = d[d$lived=="both8",]
@@ -27,9 +30,9 @@ d = d[d$yearsLived=="5plus",]
 ## only self-describe as Chinese-Chinese
 #d = d[d$describe=="ChineseChinese",]
 # only Mandarin as native language
-d = d[d$language!="廣東話"&d$language!="",]
+d = d[d$language!="廣東話"&d$language!="马拉雅拉姆语"&d$language!="",]
 
-length(unique(d$workerid)) # n=9
+length(unique(d$workerid)) # n=8
 
 ################################
 
