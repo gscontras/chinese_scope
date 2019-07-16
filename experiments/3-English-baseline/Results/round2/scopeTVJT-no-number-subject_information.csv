@@ -1,0 +1,10 @@
+workerid,language,enjoyment,gender,age,comments,assess,selfreport,education
+0,English,1,Male,26,,Yes,I have no idea.,1
+1,English,1,Male,24,,Yes,,1
+2,English,1,Male,26,,Yes,Seeing how people read information.,1
+3,English,1,Female,36,"none, thanks.",Yes,Understanding language,2
+4,English,1,Female,26,Good study.,Yes,I&quotecharm not sure.,3
+5,English,1,Male,32,,No,It was good.,3
+6,English,1,Male,25,NA,Yes,Decision making,3
+7,English,1,Female,27,thanks,Yes,Correct statements.,3
+8,English,2,Male,59,,Yes,Research on cognition.,2
