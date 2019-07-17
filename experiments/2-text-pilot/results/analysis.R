@@ -30,9 +30,9 @@ d = d[d$yearsLived=="5plus",]
 ## only self-describe as Chinese-Chinese
 #d = d[d$describe=="ChineseChinese",]
 # only Mandarin as native language
-d = d[d$language!="粤语"&d$language!="United States",]
+d = d[d$language!="粤语"&d$language!="United States"&d$language!="",]
 
-length(unique(d$workerid)) # n=14
+length(unique(d$workerid)) # n=13
 
 ################################
 
@@ -41,6 +41,6 @@ t = d[d$trial_type=="one_slider"&d$item!="control1"&d$item!="control2"&d$item!="
 c_agg = aggregate(response~context*number,data=t,FUN=mean)
 c_agg
 
-table(d$context,d$number)
+table(t$context,t$number)
 
 
