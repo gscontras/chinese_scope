@@ -3,12 +3,12 @@ library(reshape2)
 library(lme4)
 library(dplyr)
 
-setwd("~/git/chinese_scope/experiments/1-text-pilot/Submiterator-master/")
+setwd("~/git/chinese_scope/experiments/2-text-pilot/Submiterator-master/")
 
 source("../results/helpers.r")
 
-d = read.csv("1-text-pilot-trials.csv",header=T)
-s = read.csv("1-text-pilot-subject_information.csv",header=T)
+d = read.csv("2-text-pilot-trials.csv",header=T)
+s = read.csv("2-text-pilot-subject_information.csv",header=T)
 
 d$language = s$language[match(d$workerid,s$workerid)]
 d$describe = s$describe[match(d$workerid,s$workerid)]
@@ -30,9 +30,9 @@ d = d[d$yearsLived=="5plus",]
 ## only self-describe as Chinese-Chinese
 #d = d[d$describe=="ChineseChinese",]
 # only Mandarin as native language
-d = d[d$language!="廣東話"&d$language!="马拉雅拉姆语"&d$language!="",]
+d = d[d$language!="粤语"&d$language!="United States"&d$language!="",]
 
-length(unique(d$workerid)) # n=8
+length(unique(d$workerid)) # n=13
 
 ################################
 
@@ -40,3 +40,7 @@ t = d[d$trial_type=="one_slider"&d$item!="control1"&d$item!="control2"&d$item!="
 
 c_agg = aggregate(response~context*number,data=t,FUN=mean)
 c_agg
+
+table(t$context,t$number)
+
+
