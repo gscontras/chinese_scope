@@ -2,3 +2,6 @@
 experiments/1-text-pilot/Results/.Rhistory
 experiments/1-text-pilot/Results/.RData
 experiments/1-text-pilot/Submiterator-master/1-text-pilot.hits
+experiments/3-english-baseline/Submiterator-master/3-english-baseline.hits
+experiments/3-english-baseline/Submiterator-master/3-english-baseline-workerids.csv
+experiments/3-english-baseline/Submiterator-master/3-english-baseline-system.csv
