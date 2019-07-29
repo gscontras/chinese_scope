@@ -71,9 +71,11 @@
             $(".p_showButton").hide();
         }
       </script>
-    <p><img src = "../_shared/images/puppet.jpg" class = "p_hidden" id = "puppet1"><img src = "../_shared/images/puppet.jpg" class = "p_hidden" id = "puppet2"></p> 
-  	<p class="p_hidden text">人偶说:</p>
+    <p><img src = "../_shared/images/puppet_ask.jpg" class = "p_hidden" id = "puppet1"><img src = "../_shared/images/puppet_answer.jpg" class = "p_hidden" id = "puppet2"></p> 
+  	<p class="p_hidden text">人偶A问:</p>
+    <p id="practiceQuestion" class="p_hidden text" style="font-weight: bold;"></p>
   	<!-- <p><img src = "../_shared/images/puppet.jpg" class = "p_hidden" id = "puppet"></p> -->
+    <p class="p_hidden text">人偶B说:</p>
   	<p id="practiceSentence" class="p_hidden text" style="font-weight: bold;"></p>
       <p class = "p_hidden text"> 人偶说的对吗？</p>
       <table id="practice_slider" class="slider_table p_hidden text">
@@ -108,7 +110,10 @@
       $(".showButton").hide();
     }
     </script>
-	<p><img src = "../_shared/images/puppet.jpg" class = "hidden" id = "puppet"></p> 
+	<p><img src = "../_shared/images/puppet_ask.jpg" class = "hidden" id = "puppet1"><img src = "../_shared/images/puppet_answer.jpg" class = "hidden" id = "puppet2"></p> 
+  <p class="hidden">人偶A问:</p>
+  <p id="expQUD" class="hidden" style="font-weight: bold;"></p>
+  <p class="hidden">人偶B说:</p>
     <p id="testSentence" class="hidden" style="font-weight: bold;"></p>
 	<p class = "hidden">人偶说的对吗？</p>
     <table id="slider_table" class="slider_table hidden">
