@@ -118,7 +118,7 @@ function make_slides(f) {
 
       exp.context = _.sample(["with","without"]);
       exp.number = _.sample(["two","four"]);
-      exp.QUD = _.sample(["what_happened","all","none"])
+      exp.QUD = _.sample(["what_happened","all","none","how_many"])
 	  //exp.number = _.sample(["two"]);
 
       exp.condition = exp.number + exp.context
