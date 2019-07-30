@@ -1,8 +1,36 @@
-age,comments,assess,education,enjoyment,gender,language,workerid
-42,,Yes,3,1,Male,English,0
-38,,Yes,4,1,Female,english,1
-45,,Yes,3,1,Male,english,2
-30,,Yes,2,1,Male,english,3
-26,,Yes,0,0,Male,english,4
-73,none,Yes,2,2,Male,Dutch,5
-30,,Yes,3,1,Male,english,6
+comments,gender,age,enjoyment,assess,language,education,workerid
+,Male,42,1,Yes,English,3,0
+,Female,38,1,Yes,english,4,1
+,Male,45,1,Yes,english,3,2
+Thanks for the HIT!,Male,30,1,Yes,English,2,3
+Am I ready for first grade now?,Male,68,1,Yes,English,3,4
+,Male,25,2,Yes,,3,5
+,Female,38,1,Yes,English,3,6
+,Female,30,1,Yes,english,4,7
+Low pay,Male,25,0,Yes,english,3,8
+,Male,30,1,Yes,english,2,9
+,Male,26,0,Yes,english,0,10
+No comments,Female,48,1,Yes,English,2,11
+,Female,28,1,Yes,English,2,12
+,Female,54,1,No,Spanish,3,13
+,Male,23,2,Yes,English,3,14
+I hope and thought I did this hit right,Female,55,2,Yes,English,2,15
+No problems.,Male,31,2,Yes,English,2,16
+No comments.,Male,30,1,Yes,English,3,17
+none,Male,73,2,Yes,Dutch,2,18
+,Male,41,2,Yes,English,2,19
+,Male,41,2,Yes,english,3,20
+"underpaid, a bit long and tedious considering reading ",Female,33,1,Yes,English,4,21
+,Female,33,2,Yes,English,2,22
+,Male,27,2,Yes,English,4,23
+,Female,42,1,Yes,English,4,24
+thanks,Male,64,1,Yes,English,3,25
+,Female,31,2,Yes,english,3,26
+,Male,30,1,Yes,english,3,27
+,Male,33,2,Yes,English,2,28
+It seemed pointless,Male,ww,0,Yes,English,2,29
+,Male,25,2,Yes,English,3,30
+,Female,40,1,Yes,English,4,31
+,Male,44,2,Yes,English,3,32
+None specifically.,Female,47,1,Yes,English,0,33
+,Male,28,1,Yes,english,2,34

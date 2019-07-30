@@ -3,12 +3,12 @@ library(reshape2)
 library(lme4)
 library(dplyr)
 
-setwd("~/git/chinese_scope/experiments/3-english-baseline/Submiterator-master/")
+setwd("~/git/chinese_scope/experiments/4-english-early-success/Submiterator-master/")
 
 source("../results/helpers.r")
 
-d = read.csv("3-english-baseline-trials.csv",header=T)
-s = read.csv("3-english-baseline-subject_information.csv",header=T)
+d = read.csv("4-english-early-success-trials.csv",header=T)
+s = read.csv("4-english-early-success-subject_information.csv",header=T)
 
 d$language = s$language[match(d$workerid,s$workerid)]
 #d$describe = s$describe[match(d$workerid,s$workerid)]
@@ -24,9 +24,9 @@ d$assess = s$assess[match(d$workerid,s$workerid)]
 
 
 # only English as native language
-d = d[d$language!="United States",]
+d = d[d$language!="United States"&d$language!="Spanish"&d$language!="Dutch",]
 
-length(unique(d$workerid)) # n=34
+length(unique(d$workerid)) # n=33
 
 ################################
 
