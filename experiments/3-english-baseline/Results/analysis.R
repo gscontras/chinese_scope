@@ -37,4 +37,12 @@ e_agg
 
 table(t$context,t$number)
 
+e_b_s = bootsSummary(data=t, measurevar="response", groupvars=c("context","number"))
 
+e_b_plot = ggplot(data=e_b_s,aes(x=number,y=response,fill=context))+
+  geom_bar(stat="identity",color="black",position=position_dodge())+
+  geom_errorbar(aes(ymin=bootsci_low, ymax=bootsci_high, x=number, width=0.1),position=position_dodge(0.9))+
+  ylim(0,1)+
+  #labs("order\npreference")+
+  theme_bw()#+
+#ggsave("../results/english-baseline.png")
