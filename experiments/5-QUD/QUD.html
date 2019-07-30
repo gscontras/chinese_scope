@@ -71,13 +71,19 @@
             $(".p_showButton").hide();
         }
       </script>
-    <p><img src = "expt_files/elephant.jpg" class = "p_hidden" id = "puppet1" width = "250"><img src = "expt_files/shark.jpg" class = "p_hidden" id = "puppet2" width = "200"></p> 
-  	<p class="p_hidden text">大象问:</p>
-    <p id="practiceQuestion" class="p_hidden text" style="font-weight: bold;"></p>
-  	<!-- <p><img src = "../_shared/images/puppet.jpg" class = "p_hidden" id = "puppet"></p> -->
-    <p class="p_hidden text">鲨鱼说:</p>
-  	<p id="practiceSentence" class="p_hidden text" style="font-weight: bold;"></p>
-      <p class = "p_hidden text"> 鲨鱼说的对吗？</p>
+    
+    <div>
+      <img src = "expt_files/shark.jpg" class = "p_hidden puppet" id = "puppet2" width = "215" >
+        <div class="center">
+      	<p class="p_hidden text">大象问:</p>
+        <p id="practiceQuestion" class="p_hidden text" style="font-weight: bold;"></p>
+        <p class="p_hidden text">鲨鱼说:</p>
+      	<p id="practiceSentence" class="p_hidden text" style="font-weight: bold;"></p>
+        </div>
+      <img src = "expt_files/elephant.jpg" class = "p_hidden puppet" id = "puppet1" width = "215"> 
+    </div>
+
+    <p class = "p_hidden text"> 鲨鱼说的对吗？</p>
       <table id="practice_slider" class="slider_table p_hidden text">
         <tr><td class="left p_hidden text">完全错误</td><td class="right p_hidden text">完全正确</td></tr>
         <tr><td colspan="2"><div id="prac_single_slider" class="slider p_hidden text"></div></td></tr>
@@ -110,12 +116,17 @@
       $(".showButton").hide();
     }
     </script>
-	<p><img src = "expt_files/elephant.jpg" class = "hidden" id = "puppet1" width = "250"><img src = "expt_files/shark.jpg" class = "hidden" id = "puppet2" width = "200"></p> 
-  <p class="hidden">大象问:</p>
-  <p id="expQUD" class="hidden" style="font-weight: bold;"></p>
-  <p class="hidden">鲨鱼说:</p>
-    <p id="testSentence" class="hidden" style="font-weight: bold;"></p>
-	<p class = "hidden">鲨鱼说的对吗？</p>
+	<div>
+      <img src = "expt_files/shark.jpg" class = "hidden puppet" id = "puppet2" width = "215" >
+        <div class="center">
+        <p class="hidden text">大象问:</p>
+        <p id="expQUD" class="hidden text" style="font-weight: bold;"></p>
+        <p class="hidden text">鲨鱼说:</p>
+        <p id="testSentence" class="hidden text" style="font-weight: bold;"></p>
+        </div>
+      <img src = "expt_files/elephant.jpg" class = "hidden puppet" id = "puppet1" width = "215"> 
+    </div>
+    <p class = "hidden text"> 鲨鱼说的对吗？</p>
     <table id="slider_table" class="slider_table hidden">
       <tr><td class="left hidden">完全错误</td><td class="right hidden">完全正确</td></tr>
       <tr><td colspan="2"><div id="single_slider" class="slider hidden"></div></td></tr>

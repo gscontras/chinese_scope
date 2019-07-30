@@ -9,10 +9,16 @@
 	bottom: 80px;
 }*/
 
-#puppet {
-	width: 150;
-	position: relative;
-	top: -20px;
+.puppet {
+	display: inline-block;
+	/*width: 150;*/
+	/*position: relative;*/
+	padding: 5px;
+	transform: scaleX(-1);
+}
+
+.center {
+	display: inline-block;
 }
 
 #practiceStory {
