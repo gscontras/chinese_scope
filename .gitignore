@@ -7,3 +7,5 @@ experiments/3-english-baseline/Submiterator-master/3-english-baseline-workerids.
 experiments/3-english-baseline/Submiterator-master/3-english-baseline-system.csv
 experiments/4-english-early-success/Submiterator-master/4-english-early-success-workerids.csv
 experiments/4-english-early-success/Submiterator-master/4-english-early-success.hits
+experiments/5-QUD/Submiterator-master/5-QUD-workerids.csv
+experiments/5-QUD/Submiterator-master/5-QUD.hits

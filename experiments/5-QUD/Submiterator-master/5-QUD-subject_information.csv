@@ -1,0 +1,16 @@
+workerid,education,age,homeLanguage,gender,outsideLanguage,describe,yearsLived,comments,lived,proficiency,assess,enjoyment,language
+0,1,26,english,Male,english,ChineseEnglish,1to5,好学习..,both8,nearNative,Yes,1,中文
+1,1,你儿,chinese,Male,other,ChineseEnglish,1,A2XZR9709N0GVA,both8,intermediate,Yes,0,你儿时在
+2,2,24,chinese,Male,chinese,ChineseEnglish,never,VERY FUN SURVEY,never,intermediate,Yes,1,India
+3,0,三十四,chinese,Male,english,ChineseChinese,1,"
+没有",before8,intermediate,Yes,0, 印度
+4,3,27,english,Male,english,EnglishChinese,1,尼斯,before8,native,No,1,。中國
+5,2,19,english,Male,english,ChineseEnglish,5plus,,both8,native,Yes,1,中文
+6,3,27,chinese,Male,english,ChineseChinese,never,none,before8,advanced,Yes,1,english
+7,1,32,english,Female,other,ChineseEnglish,never,好的調查,never,nearNative,No,1,中文
+8,-1,,-1,,-1,-1,-1,,-1,-1,Yes,-1,
+9,3,27,english,Female,english,ChineseEnglish,1,我喜歡這項研究,before8,nearNative,Yes,0,中文
+10,1,27,chinese,Female,english,EnglishChinese,1to5,nice,never,nearNative,Yes,1,11.2.1988
+11,3,27,english,Female,chinese,ChineseEnglish,never,很好的调查,both8,nearNative,Yes,0,中文
+12,0,26,chinese,Male,chinese,ChineseChinese,never,,never,basic,Yes,0,Chinese
+13,2,27,chinese,Male,chinese,ChineseEnglish,never,,never,advanced,Yes,1,
