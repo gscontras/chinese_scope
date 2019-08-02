@@ -1,16 +1,269 @@
-workerid,education,age,homeLanguage,gender,outsideLanguage,describe,yearsLived,comments,lived,proficiency,assess,enjoyment,language
-0,1,26,english,Male,english,ChineseEnglish,1to5,好学习..,both8,nearNative,Yes,1,中文
-1,1,你儿,chinese,Male,other,ChineseEnglish,1,A2XZR9709N0GVA,both8,intermediate,Yes,0,你儿时在
-2,2,24,chinese,Male,chinese,ChineseEnglish,never,VERY FUN SURVEY,never,intermediate,Yes,1,India
-3,0,三十四,chinese,Male,english,ChineseChinese,1,"
-没有",before8,intermediate,Yes,0, 印度
-4,3,27,english,Male,english,EnglishChinese,1,尼斯,before8,native,No,1,。中國
-5,2,19,english,Male,english,ChineseEnglish,5plus,,both8,native,Yes,1,中文
-6,3,27,chinese,Male,english,ChineseChinese,never,none,before8,advanced,Yes,1,english
-7,1,32,english,Female,other,ChineseEnglish,never,好的調查,never,nearNative,No,1,中文
-8,-1,,-1,,-1,-1,-1,,-1,-1,Yes,-1,
-9,3,27,english,Female,english,ChineseEnglish,1,我喜歡這項研究,before8,nearNative,Yes,0,中文
-10,1,27,chinese,Female,english,EnglishChinese,1to5,nice,never,nearNative,Yes,1,11.2.1988
-11,3,27,english,Female,chinese,ChineseEnglish,never,很好的调查,both8,nearNative,Yes,0,中文
-12,0,26,chinese,Male,chinese,ChineseChinese,never,,never,basic,Yes,0,Chinese
-13,2,27,chinese,Male,chinese,ChineseEnglish,never,,never,advanced,Yes,1,
+language,describe,workerid,education,gender,assess,outsideLanguage,enjoyment,comments,lived,homeLanguage,proficiency,yearsLived,age
+中文,ChineseEnglish,0,1,Male,Yes,english,1,好学习..,both8,english,nearNative,1to5,26
+ 印度人,ChineseEnglish,1,2,Male,Yes,chinese,0,"
+良好的调查e非常非常液体和良好的环境",both8,chinese,intermediate,1,29
+Chinese,ChineseChinese,2,3,Female,Yes,english,1,,both8,chinese,native,5plus,44
+你儿时在家,ChineseEnglish,3,1,Male,No,english,1,下列哪个选项最,both8,chinese,advanced,never,025
+english,ChineseChinese,4,2,Female,Yes,chinese,0,,never,chinese,nearNative,never,40
+cffv,ChineseChinese,5,0,Male,No,english,0,,before8,other,native,1,ferd
+,ChineseEnglish,6,1,Female,Yes,english,1,,both8,english,intermediate,1,
+,ChineseEnglish,7,2,Male,Yes,chinese,1,这个测试非常酷,never,chinese,nearNative,1,浩
+,EnglishChinese,8,2,Female,Yes,other,1,,never,english,nearNative,1to5,
+你儿时在,ChineseEnglish,9,1,Male,Yes,other,0,A2XZR9709N0GVA,both8,chinese,intermediate,1,你儿
+中文,EnglishChinese,10,3,Female,Yes,chinese,0,"
+没关系",after8,english,nearNative,1to5,45
+english,ChineseChinese,11,2,Male,Confused,english,0,,before8,english,advanced,1,28
+Chinese,ChineseChinese,12,3,Male,Yes,chinese,2,,both8,chinese,native,5plus,36
+Italia,ChineseEnglish,13,1,Male,Yes,chinese,1,我觉得我回答得很好，我的中文水平不是很高，我肯定会错过最后一步的一些信息，这些故事都很有趣。,before8,english,advanced,never,27
+,-1,14,-1,,Yes,-1,-1,,-1,-1,-1,-1,29
+,-1,15,2,Male,,chinese,1,,both8,chinese,basic,1to5,
+ 葡萄牙,ChineseEnglish,16,1,Female,Yes,english,1,"
+我真的很喜欢这个打击",never,english,basic,never,23
+,ChineseChinese,17,0,Male,No,chinese,0,,never,chinese,basic,never,
+Brasil,ChineseEnglish,18,2,Male,Confused,other,1,YES.,never,english,native,1to5,21
+english,ChineseChinese,19,2,Female,Yes,english,0,this is good,before8,chinese,nearNative,1,34
+United States,ChineseChinese,20,1,Female,Yes,english,0,I really enjoy the story and the task,after8,english,basic,never,30
+ENGLISH,EnglishChinese,21,1,Female,Yes,chinese,0,VERY NICE,never,chinese,basic,never,33
+ENGLISH,EnglishChinese,22,0,Male,Yes,chinese,0,VERY NICE,never,chinese,basic,never,33
+,ChineseEnglish,23,2,Female,No,english,1,,never,english,advanced,1,
+87,ChineseChinese,24,1,Male,Yes,chinese,0,na,never,chinese,basic,never,20
+Português,EnglishChinese,25,2,Female,Yes,english,0,"
+这很难，因为我不会说中文，我使用翻译。",after8,english,nearNative,never,二十六
+英语,ChineseEnglish,26,3,Male,Yes,english,1,謝謝你擁有我,both8,chinese,nearNative,never,22
+english,ChineseChinese,27,1,Female,Yes,chinese,0,no thanks,both8,chinese,advanced,1,29
+,ChineseEnglish,28,1,Female,Yes,english,1,,both8,english,intermediate,1,
+,ChineseEnglish,29,1,Female,Yes,english,1,,both8,english,intermediate,1,
+,ChineseEnglish,30,1,Female,Yes,english,1,,both8,english,intermediate,1,
+,-1,31,4,Female,Yes,-1,-1,,-1,-1,-1,-1,
+英文,ChineseChinese,32,1,Male,Yes,english,2,,never,chinese,native,1,19
+中文,ChineseEnglish,33,4,Female,Yes,english,2,,after8,english,native,5plus,57
+chinese,ChineseEnglish,34,2,Female,Yes,english,2,,both8,chinese,native,5plus,33
+mandarin,ChineseEnglish,35,3,Male,Yes,chinese,1,,both8,english,advanced,5plus,31
+India,ChineseEnglish,36,2,Male,Yes,chinese,1,VERY FUN SURVEY,never,chinese,intermediate,never,24
+español,other,37,3,Female,Yes,other,2,,never,other,other,never,40
+CANTONESE,ChineseEnglish,38,3,Female,Yes,english,1,,both8,english,native,5plus,29
+ENGLISH,ChineseEnglish,39,2,Female,Yes,english,1,"
+很好，很容易學習",both8,english,advanced,1,三十五
+Yes,EnglishChinese,40,2,,,english,1,Very interesting ,after8,other,nearNative,1,Yes
+,-1,41,-1,,Yes,-1,-1,,-1,-1,-1,-1,
+TAMIL,EnglishChinese,42,3,Female,Yes,other,1,"没有
+",before8,english,native,1to5,26
+TAMIL,EnglishChinese,43,4,Male,No,english,2,没有,after8,other,native,5plus,26
+,ChineseEnglish,44,1,Female,No,english,1,,both8,english,nearNative,never,
+英语,ChineseEnglish,45,1,Other,Yes,chinese,1,英语,never,chinese,native,1,25
+中文,EnglishChinese,46,1,Female,Yes,-1,1,,before8,-1,-1,1to5,二十二
+Ελλάδα,ChineseEnglish,47,1,Other,No,chinese,0,,never,other,advanced,never,18
+cantonese,ChineseEnglish,48,3,Female,Yes,english,1,,after8,english,intermediate,5plus,26
+,-1,49,0,Other,,english,0,,after8,chinese,basic,1,
+,ChineseChinese,50,1,Male,,english,1,,never,chinese,nearNative,never,
+English,ChineseEnglish,51,2,Male,Yes,english,1,,both8,english,advanced,1,47
+Mandarin,ChineseChinese,52,3,Female,,english,2,,after8,chinese,native,5plus,61
+普通话。,ChineseChinese,53,2,Male,Yes,chinese,2,"很好的學習。
+",both8,chinese,basic,5plus,29
+TAMIL,other,54,3,Male,Yes,english,1,没有,before8,english,nearNative,1to5,26
+punjabi,ChineseEnglish,55,3,Female,Yes,other,0,its interesting,both8,chinese,basic,1,23
+英语,EnglishChinese,56,3,Male,Yes,english,2,非常感谢你,never,english,advanced,never,35
+ENGLISH,ChineseEnglish,57,2,Male,Yes,chinese,0,GOOD,never,english,nearNative,never,35
+,ChineseEnglish,58,2,Female,Yes,chinese,1,,both8,english,advanced,never,
+,ChineseChinese,59,1,Female,,chinese,0,,never,english,intermediate,never,
+,ChineseEnglish,60,1,Female,,english,1,,both8,english,intermediate,1,
+chinese,ChineseChinese,61,3,Female,Yes,chinese,1,,before8,chinese,nearNative,5plus,37
+chinese,ChineseChinese,62,4,Male,Yes,chinese,1,,both8,chinese,native,5plus,30
+中文,ChineseEnglish,63,2,Female,Yes,english,2,很有意思,both8,chinese,native,5plus,19
+tamil,ChineseEnglish,64,3,Male,Confused,english,1,nothing,before8,chinese,intermediate,1,24
+Kannada,ChineseChinese,65,3,Male,No,english,0,na,never,chinese,basic,1,30
+,ChineseEnglish,66,1,Female,Yes,english,1,,both8,english,intermediate,1,
+中国,ChineseChinese,67,3,Female,Yes,english,2,,both8,chinese,native,5plus,23
+,ChineseChinese,68,1,Male,Yes,english,0,,both8,english,intermediate,never,
+英语,ChineseEnglish,69,3,Male,Yes,chinese,0,,never,english,nearNative,1to5,37
+ENGLISH,ChineseChinese,70,3,Male,Yes,chinese,0,VERY NICE,never,chinese,basic,never,35
+portuguese,-1,71,-1,,Yes,-1,-1,Good test,-1,-1,-1,-1,24
+ 印度,ChineseChinese,72,0,Male,Yes,english,0,"
+没有",before8,chinese,intermediate,1,三十四
+中文,ChineseEnglish,73,2,Male,Yes,english,1,,both8,english,advanced,never,29
+India,EnglishChinese,74,2,Male,Confused,chinese,1,,before8,english,basic,1,24
+,ChineseEnglish,75,1,Female,Yes,english,1,,both8,english,intermediate,1,
+英文,EnglishChinese,76,3,Male,Yes,english,1,你们很狡猾,never,english,advanced,1to5,40
+,-1,77,1,Female,,-1,-1,,-1,-1,-1,-1,
+United States,ChineseEnglish,78,0,Female,Yes,-1,0,,never,chinese,-1,1to5,tiffany jeffcoat
+ENGLISH,ChineseEnglish,79,2,Male,Confused,english,1,GOOD,both8,english,intermediate,never,24
+,ChineseEnglish,80,-1,,,chinese,1,,both8,english,nearNative,1,
+英语,ChineseEnglish,81,2,Male,Yes,english,0,没有,both8,english,nearNative,1,34
+,ChineseEnglish,82,1,Female,Yes,english,1,,both8,english,intermediate,1,
+United States,EnglishChinese,83,2,Female,Yes,english,1,n/a,after8,english,advanced,1,n/a
+,ChineseEnglish,84,3,,Yes,english,1,,-1,english,intermediate,5plus,
+,ChineseChinese,85,0,Female,,other,1,,both8,chinese,intermediate,1,
+United States,ChineseEnglish,86,2,Male,Yes,chinese,2,Yes,before8,english,advanced,1,Alec Angus
+,ChineseChinese,87,1,Female,No,english,1,,never,english,advanced,1,
+Tamil,ChineseEnglish,88,2,Male,Yes,english,0,,after8,english,nearNative,never,24
+ENGLISH,ChineseEnglish,89,3,Female,Yes,english,1,IT IS VERY GOOD,before8,english,nearNative,1,28
+ENGLISH,ChineseEnglish,90,2,Female,Confused,chinese,1,GOOD,both8,english,advanced,never,24
+,ChineseEnglish,91,2,Female,,chinese,1,,both8,english,native,1to5,
+english,ChineseEnglish,92,1,Female,Yes,chinese,1,,both8,chinese,basic,1,31
+Heyyy,ChineseEnglish,93,1,Male,No,chinese,1,I feel food.,before8,chinese,nearNative,1,25
+,-1,94,-1,Male,Yes,-1,-1,,-1,-1,-1,-1,
+Portuguese,ChineseEnglish,95,3,Male,Yes,english,0,好的，谢谢,both8,chinese,nearNative,1,18
+英语,EnglishChinese,96,3,Female,Yes,english,0,,both8,english,advanced,1to5,34
+中文,ChineseEnglish,97,1,Female,Yes,english,2,"
+我很喜欢这个",both8,english,advanced,1,24
+,ChineseChinese,98,0,Male,Yes,-1,0,,both8,chinese,-1,1,29
+,ChineseChinese,99,0,Male,No,-1,0,,never,chinese,basic,never,
+India,ChineseEnglish,100,1,Male,Yes,english,1,,before8,chinese,advanced,1,27
+,-1,101,3,Male,Yes,-1,-1,,-1,-1,-1,-1,25
+Spanish,ChineseChinese,102,1,Other,Yes,english,0,cool,never,chinese,basic,never,33
+潮州,other,103,3,Female,Confused,other,1,不是很清楚做的对吗,both8,other,intermediate,5plus,41
+ENGLISH,ChineseEnglish,104,2,Male,Yes,english,0,GOOD,never,chinese,nearNative,1to5,24
+,ChineseEnglish,105,1,Female,,english,0,,never,english,intermediate,never,
+,ChineseChinese,106,1,Female,,other,0,,both8,chinese,intermediate,1,
+ENGLISH,EnglishChinese,107,1,Female,Yes,chinese,0,VERY NICE,never,chinese,basic,-1,33
+。中國,EnglishChinese,108,3,Male,No,english,1,尼斯,before8,english,native,1,27
+中文,ChineseEnglish,109,2,Male,Yes,english,1,,both8,english,native,5plus,19
+中文,ChineseEnglish,110,3,Female,Yes,english,2,,before8,english,native,5plus,30
+Portuguese,EnglishChinese,111,3,Male,No,other,0,问题可能会更深入一些。,before8,other,native,1to5,39
+India,other,112,1,Female,Yes,other,0,nothing,never,chinese,nearNative,1to5,27
+中文,ChineseEnglish,113,3,Male,Yes,english,1,,both8,chinese,intermediate,5plus,25
+汉语,ChineseEnglish,114,3,Female,Yes,english,1,很有趣,before8,chinese,nearNative,5plus,30
+英語,ChineseEnglish,115,3,Female,Yes,chinese,1,"好
+",both8,chinese,nearNative,never,31
+普通话,ChineseEnglish,116,2,Female,Yes,other,0,,before8,english,native,never,21
+United States,ChineseEnglish,117,0,Other,No,chinese,0,,never,chinese,advanced,never,32
+,-1,118,0,Male,No,-1,-1,,-1,-1,-1,-1,
+,-1,119,2,Female,No,-1,-1,,-1,-1,-1,-1,SHALINI
+,-1,120,-1,,,-1,-1,,-1,-1,-1,-1,
+,ChineseEnglish,121,1,Female,Yes,english,1,,both8,english,intermediate,1,
+英语,ChineseEnglish,122,2,Female,Confused,english,1,作为一个基本的演讲者，这很难,never,english,advanced,never,25岁
+母语,ChineseChinese,123,2,Male,Yes,english,1,,both8,chinese,native,1,28
+chinese,ChineseEnglish,124,1,Male,,english,2,good,both8,chinese,advanced,1to5,25
+United States,ChineseEnglish,125,1,Male,No,chinese,1,na,before8,english,advanced,1,26
+english,ChineseChinese,126,3,Male,Yes,english,1,none,before8,chinese,advanced,never,27
+中文,ChineseEnglish,127,1,Female,No,other,1,好的調查,never,english,nearNative,never,32
+2,ChineseEnglish,128,1,Female,No,english,1,22,both8,english,advanced,5plus,22
+葡萄牙,ChineseEnglish,129,3,Male,Yes,-1,0,快速完成。,after8,-1,-1,never,二十二
+葡萄牙,ChineseEnglish,130,3,Female,Yes,chinese,0,"我非常喜欢这个测试
+非常有趣",never,chinese,advanced,1,61
+,ChineseEnglish,131,1,Female,Yes,english,1,,both8,chinese,intermediate,1,
+,ChineseChinese,132,1,Male,Yes,english,1,,never,english,nearNative,1,29
+Portuguese,EnglishChinese,133,4,Other,Yes,other,1,,never,other,basic,never,27
+chinese,EnglishChinese,134,1,Male,,english,1,good,both8,english,nearNative,1,25
+,-1,135,-1,,Yes,-1,-1,,-1,-1,-1,-1,
+,EnglishChinese,136,2,Female,No,english,1,,both8,english,nearNative,1to5,
+,-1,137,-1,Female,Yes,-1,-1,,-1,-1,-1,-1,25
+,ChineseEnglish,138,1,Female,Yes,english,1,,both8,english,intermediate,1,
+Italia,ChineseEnglish,139,2,Male,Yes,chinese,0,,both8,chinese,intermediate,never,axel
+,ChineseEnglish,140,-1,Male,Yes,chinese,0,,both8,english,basic,never,54
+ENGLISH,ChineseEnglish,141,2,Male,Yes,english,0,GOOD,never,chinese,basic,never,25
+,ChineseEnglish,142,2,Female,,english,1,,both8,english,advanced,1to5,
+India,ChineseChinese,143,2,Male,Yes,chinese,0,100%,before8,chinese,basic,1,36
+Chinese,EnglishChinese,144,3,Male,Yes,english,1,,both8,chinese,advanced,1,27
+,-1,145,-1,,,-1,-1,,-1,-1,-1,-1,
+葡萄牙,ChineseEnglish,146,0,Female,Yes,chinese,1,這是一個非常有趣的測試，我想做更多的事情,never,english,advanced,1,十九
+英语,ChineseChinese,147,2,Female,Yes,english,0,开玩笑,never,english,basic,never,27
+Portuguese,-1,148,3,Male,Yes,-1,1,我喜欢它，这是一个很好的训练。,-1,-1,-1,-1,25
+,ChineseEnglish,149,2,Male,No,english,1,,both8,chinese,advanced,1,
+,ChineseEnglish,150,2,Female,Confused,english,1,,both8,other,intermediate,1to5,
+,EnglishChinese,151,1,Male,Confused,english,1,,both8,chinese,intermediate,1,
+,-1,152,-1,Female,Yes,-1,-1,,-1,-1,-1,-1,
+,-1,153,-1,,,-1,-1,,-1,-1,-1,-1,
+你阅读了操作说明,other,154,0,Male,Yes,chinese,0,你阅读了操作说明,both8,chinese,other,5plus,你阅读了操作说明
+TAMIL,EnglishChinese,155,3,Male,Yes,other,1,"没有
+",before8,english,native,1to5,26
+,EnglishChinese,156,1,Female,Yes,chinese,0,,both8,chinese,advanced,1,
+,ChineseEnglish,157,1,Female,,english,1,,both8,english,intermediate,1,
+印地语,ChineseEnglish,158,1,Male,Yes,english,0,"这很有趣也很有趣。
+",both8,english,advanced,1to5,24
+United States,ChineseEnglish,159,2,Male,Yes,english,0,,after8,chinese,nearNative,never,28
+chinese,ChineseEnglish,160,1,Female,Yes,english,2,,both8,chinese,intermediate,1to5,18
+englis,ChineseChinese,161,3,Male,Yes,english,0,I liked it a lot more,both8,other,native,1to5,19
+中文,ChineseEnglish,162,3,Male,Yes,english,2,很好,both8,chinese,native,5plus,25
+ 中文,ChineseEnglish,163,3,Male,Yes,english,2,"
+我很喜欢这个",before8,english,nearNative,1to5,24
+,ChineseEnglish,164,1,Female,Yes,english,1,,before8,chinese,intermediate,never,
+Punjabi,-1,165,3,Male,Yes,-1,-1,,-1,-1,-1,-1,24
+,ChineseEnglish,166,2,Other,Yes,other,1,,never,english,intermediate,never,
+Brasil,EnglishChinese,167,3,Female,Yes,other,1,nothing to say,never,-1,intermediate,1,
+Portuguese,-1,168,3,Female,Yes,-1,1,,-1,-1,-1,-1,21
+english,EnglishChinese,169,1,Male,Yes,english,1,,both8,english,advanced,1to5,24
+ 中文,ChineseEnglish,170,1,,Yes,english,2,"
+我很喜欢这个",both8,english,advanced,1,24
+中文,EnglishChinese,171,2,Male,Yes,other,1,,after8,other,other,5plus,25
+Chinese,ChineseEnglish,172,4,Female,Yes,english,2,nothing,both8,english,intermediate,5plus,53
+english,ChineseEnglish,173,1,Male,Yes,english,0,none,both8,chinese,native,1to5,23
+english,ChineseEnglish,174,0,Female,No,english,0,,after8,chinese,basic,1,27
+,-1,175,-1,,,-1,-1,,-1,-1,-1,-1,
+英语,EnglishChinese,176,4,Male,Yes,english,2,,never,english,intermediate,never,29
+chinese,ChineseEnglish,177,3,Female,Yes,english,1,,after8,chinese,native,5plus,25
+English,ChineseEnglish,178,2,Female,Yes,english,1,,never,english,nearNative,1,23
+,ChineseEnglish,179,0,Male,,chinese,1,,both8,english,advanced,1,
+13,EnglishChinese,180,1,Female,,english,0,,before8,english,advanced,1to5,29
+English,EnglishChinese,181,3,Male,Yes,chinese,1,"Good to work here, Stories are fun to hear.",before8,chinese,intermediate,5plus,24
+,ChineseChinese,182,1,Male,Yes,chinese,1,,both8,english,basic,never,
+,-1,183,0,Female,Yes,-1,-1,,-1,-1,-1,-1,
+ENGLISH,EnglishChinese,184,2,Female,Confused,english,1,GOOD,both8,english,advanced,never,25
+,ChineseEnglish,185,1,Male,,chinese,0,,never,chinese,nearNative,never,
+,-1,186,-1,Female,Yes,-1,0,,-1,-1,-1,-1,
+ENGLISH,EnglishChinese,187,0,Male,Yes,chinese,0,VERY NICE,never,chinese,basic,never,33
+asdas,ChineseChinese,188,1,Female,Yes,-1,2,sdasdasdas,both8,english,intermediate,1,sad
+,-1,189,2,Male,Yes,-1,-1,,-1,-1,-1,-1,
+,ChineseChinese,190,-1,,,chinese,0,nothing,both8,chinese,intermediate,1to5,
+中文,ChineseEnglish,191,3,Male,Yes,english,1,,before8,chinese,advanced,5plus,25
+ENGLISH,ChineseChinese,192,3,Male,Yes,english,0,NOTHING TO SAY,both8,other,advanced,1,25
+english,EnglishChinese,193,1,Male,No,english,0,谢谢你拥有我,never,chinese,basic,1,26
+123,ChineseEnglish,194,1,Male,Yes,chinese,1,very cool,before8,chinese,advanced,1to5,italy
+ENGLISH,EnglishChinese,195,2,Female,Yes,english,1,,both8,english,nearNative,1to5,25
+chinese,ChineseEnglish,196,3,Female,Yes,english,2,还挺有意思的,both8,chinese,native,5plus,24
+ 中文,ChineseEnglish,197,1,Male,Yes,english,2,"
+我很喜欢这个",both8,english,advanced,1,24
+中文,ChineseEnglish,198,3,Female,Yes,english,0,我喜歡這項研究,before8,english,nearNative,1,27
+英语,ChineseChinese,199,3,Male,Yes,chinese,0,这很有趣,both8,chinese,nearNative,1,29
+being,ChineseEnglish,200,1,Female,Yes,english,1,like you so much,before8,english,nearNative,1to5,female
+49,ChineseChinese,201,1,Female,No,english,1,,both8,chinese,native,1to5,49
+,-1,202,-1,Male,No,-1,-1,,-1,-1,-1,-1,
+英语,ChineseEnglish,203,2,Female,Yes,english,0,,before8,english,nearNative,1to5,31
+,EnglishChinese,204,3,Male,Yes,english,1,,before8,english,nearNative,5plus,
+France,ChineseEnglish,205,2,Male,Yes,english,0,,both8,english,intermediate,never,25
+,ChineseChinese,206,0,Female,,english,0,,-1,chinese,nearNative,never,
+,-1,207,2,Male,Yes,-1,2,,-1,-1,-1,-1,24
+English,EnglishChinese,208,2,Male,Yes,chinese,1,,before8,chinese,basic,1,27
+英语,ChineseChinese,209,2,Male,Yes,english,0,没有,before8,english,advanced,1,29
+,EnglishChinese,210,2,Female,Yes,english,2,,before8,chinese,intermediate,1,
+,ChineseEnglish,211,1,Male,No,chinese,1,,both8,english,advanced,1,
+Brasil,-1,212,2,Male,Yes,-1,0,"
+我发现它没有启发性",-1,-1,-1,-1,34
+English,EnglishChinese,213,2,Male,Yes,other,1,good,before8,english,native,1to5,29
+ENGLISH,ChineseChinese,214,1,Female,No,english,1,NICE,both8,chinese,advanced,1,25
+,-1,215,-1,Male,No,-1,-1,,-1,-1,-1,-1,
+11.2.1988,EnglishChinese,216,1,Female,Yes,english,1,nice,never,chinese,nearNative,1to5,27
+English,ChineseEnglish,217,2,Female,Yes,english,1,,after8,english,intermediate,never,32
+英语,ChineseEnglish,218,2,Male,Yes,chinese,1,,before8,english,advanced,1to5,34
+,ChineseChinese,219,0,Male,No,chinese,0,nice,never,chinese,basic,never,
+,ChineseEnglish,220,0,Male,Yes,chinese,0,gpd,never,chinese,intermediate,never,28
+TAMIL,other,221,4,Male,Yes,other,2,没有,before8,english,other,5plus,26
+ENGLISH,ChineseEnglish,222,3,Male,Yes,english,1,,before8,english,advanced,1,25
+Chinese,ChineseChinese,223,3,Male,Yes,english,2,,before8,chinese,native,5plus,25
+Italia,EnglishChinese,224,2,Male,Yes,-1,1,,-1,-1,-1,-1,25
+中文,ChineseEnglish,225,3,Female,Yes,chinese,0,很好的调查,both8,english,nearNative,never,27
+,-1,226,-1,,Yes,-1,-1,,-1,-1,-1,-1,
+英语,-1,227,2,Male,Yes,-1,-1,我用谷歌翻译，抱歉。,-1,-1,-1,-1,二十七
+,ChineseEnglish,228,1,Female,Yes,english,1,,both8,english,intermediate,1,
+,-1,229,3,Male,Yes,-1,-1,,-1,-1,-1,-1,25
+,ChineseEnglish,230,1,Female,Yes,english,0,,both8,english,intermediate,1,
+,ChineseEnglish,231,1,Female,Yes,english,1,,both8,english,intermediate,1,
+india,ChineseChinese,232,0,Male,Yes,english,0,Hopefully good,both8,chinese,advanced,never,pratik
+中文,ChineseEnglish,233,3,Female,Yes,english,1,,both8,chinese,native,5plus,37
+Chinese,ChineseChinese,234,0,Male,Yes,chinese,0,,never,chinese,basic,never,26
+India,ChineseEnglish,235,2,Female,No,english,0,,before8,chinese,nearNative,1,27
+United States,ChineseEnglish,236,1,Female,No,other,1,,both8,chinese,advanced,1,
+,ChineseEnglish,237,1,Female,Yes,english,1,,both8,english,intermediate,1,
+English,other,238,2,Female,Yes,english,1,,before8,english,nearNative,1,29
+英语,ChineseEnglish,239,1,Male,Yes,english,1,无法使用,before8,english,nearNative,1,27
+Chinese,ChineseEnglish,240,4,Male,Yes,english,1,good,both8,chinese,native,5plus,48
+chinese,ChineseChinese,241,4,Female,Yes,english,1,,both8,chinese,native,5plus,35
+Chinese,ChineseChinese,242,2,Female,Yes,chinese,1,,both8,english,nearNative,never,24
+,ChineseEnglish,243,2,Male,Yes,chinese,1,,never,chinese,advanced,never,27
+Shona,ChineseEnglish,244,0,Male,Yes,other,2,不是,both8,english,advanced,1to5,34
+,ChineseEnglish,245,0,Male,No,chinese,0,.,never,chinese,basic,never,
+葡萄牙,other,246,3,,,english,2,"
+一个简单而又酷炫有趣的测验，有逻辑和快速思考的东西",both8,english,nearNative,1,26
+ENGLISH,EnglishChinese,247,3,Female,Yes,english,0,Interesting,both8,chinese,native,5plus,33
+English,ChineseEnglish,248,1,Female,Yes,english,1,,before8,other,advanced,never,24
+English,EnglishChinese,249,3,Male,Yes,english,1,,before8,english,intermediate,5plus,25
