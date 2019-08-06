@@ -31,8 +31,8 @@ function make_slides(f) {
 	  
 
 	present : [
-		{practice: {story: "This story features a smurf, a salesman and five cars. The smurf decided that he wanted to buy a car. First the salesman showed him a silver convertible. The smurf liked it and purchased it for two pennies. The salesman then showed him a yellow car. The smurf liked it and also purchased it for two pennies. The smurf only had one penny left, so he decided he was finished purchasing.", sentence: "\"The smurf bought two cars.\"", question: "\"what happened to the smurf?\""}},
-		{practice: {story: "This story features three dogs, a cat, and a table. The cat was asleep on the table, and the dogs decided to wake it up. The first dog jumped on the table, but the cat did not wake up. The second dog jumped on the table, but the cat still did not wake up. The third dog said he wasn't going to jump on the table because he was too small.", sentence: "\"All dogs jumped on the table.\"", question: "\"what happened to the dogs?\""}},
+		{practice: {story: "This story features a smurf, a salesman and five cars. The smurf decided that he wanted to buy a car. First the salesman showed him a silver convertible. The smurf liked it and purchased it for two pennies. The salesman then showed him a yellow car. The smurf liked it and also purchased it for two pennies. The smurf only had one penny left, so he decided he was finished purchasing.", sentence: "\"The smurf bought two cars.\"", question: "\"What happened to the smurf?\""}},
+		{practice: {story: "This story features three dogs, a cat, and a table. The cat was asleep on the table, and the dogs decided to wake it up. The first dog jumped on the table, but the cat did not wake up. The second dog jumped on the table, but the cat still did not wake up. The third dog said he wasn't going to jump on the table because he was too small.", sentence: "\"All dogs jumped on the table.\"", question: "\"What happened to the dogs?\""}},
 	],
 
     //this gets run only at the beginning of the block
@@ -128,7 +128,7 @@ function make_slides(f) {
 
       $("#testSentence").html(stim[exp.condition]["sentence"])
 	   $("#expStory").html(stim[exp.condition]["story"]);
-      $("#expQUD").html(stim["questions"][exp.QUD]);
+      $("#expQUD").html("\"" + stim["questions"][exp.QUD] + "\"");
       this.init_sliders();
       exp.sliderPost = null;	  //erase current slider value
 	  
