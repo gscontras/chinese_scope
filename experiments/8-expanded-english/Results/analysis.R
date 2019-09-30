@@ -39,17 +39,17 @@ e_agg
 
 table(t$context,t$number,t$QUD,t$quantifier)
 
-e_every_s = bootsSummary(data=t[t$quantifier=="every",], measurevar="response", groupvars=c("context","number","QUD"))
+e_every_s = bootsSummary(data=t[t$quantifier=="every",], measurevar="response", groupvars=c("context","QUD"))
 
-e_every_plot = ggplot(data=e_every_s,aes(x=number,y=response,fill=context))+
+e_every_plot = ggplot(data=e_every_s,aes(x=QUD,y=response,fill=context))+
   geom_bar(stat="identity",color="black",position=position_dodge())+
-  geom_errorbar(aes(ymin=bootsci_low, ymax=bootsci_high, x=number, width=0.1),position=position_dodge(0.9))+
+  geom_errorbar(aes(ymin=bootsci_low, ymax=bootsci_high, x=QUD, width=0.1),position=position_dodge(0.9))+
   ylim(0,1)+
   #labs("order\npreference")+
-  facet_wrap(~QUD)+
+  #facet_wrap(~QUD)+
   theme_bw()#+
-#ggsave("../results/english-every.png")
 e_every_plot
+#ggsave("../results/english-every.png")
 
 e_numeral_s = bootsSummary(data=t[t$quantifier=="numeral",], measurevar="response", groupvars=c("context","number","QUD"))
 
