@@ -40,12 +40,12 @@ function make_slides(f) {
 		//$("#p_justification").val('');
 		$(".p_err").hide();
 		$(".p_hidden").hide();
-    $(".p_hidden_question").hide();
+    $(".p_hidden_question").show();
     $(".p_hidden_answer").hide();
 		$(".p_jerr").hide();
 		$(".text_response").val('');
 		$(".p_showButton").show();
-    $(".p_story").show();
+    $(".p_story").hide();
     $(".p_show_answer_button").hide();
 
 		this.stim = stim; //I like to store this information in the slide so I can record it later.
