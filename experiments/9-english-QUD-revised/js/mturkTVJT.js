@@ -209,9 +209,13 @@ function make_slides(f) {
 		$("#justification").val('');
 		$(".err").hide();
 		$(".hidden").hide();
+    $(".hidden_question").show();
+    $(".hidden_answer").hide();
 		$(".jerr").hide();
 		$(".text_response").val('');
 		$(".showButton").show();
+    $(".story").hide();
+    $(".show_answer_button").hide();
 
 		this.stim = stim; //I like to store this information in the slide so I can record it later.
 
