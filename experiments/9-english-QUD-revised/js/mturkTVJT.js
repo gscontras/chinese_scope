@@ -50,8 +50,11 @@ function make_slides(f) {
 
 		this.stim = stim; //I like to store this information in the slide so I can record it later.
 		
+    var pageNumber = exp.phase
+
 		$("#practiceSentence").html(stim["practice"]["sentence"]);
-		$("#practiceStory").html(stim["practice"]["story"]);
+		$("#practiceStoryStory").html(stim["practice"]["story"]);
+    $("#pageNumber").html(exp.phase);
     $("#practiceQuestion").html(stim["practice"]["question"]);
 		this.init_sliders();
       	exp.sliderPost = null;	  //erase current slider value
