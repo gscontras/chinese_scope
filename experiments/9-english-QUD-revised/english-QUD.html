@@ -68,7 +68,7 @@
   <div class="slide" id="one_slider_practice">
 	<!-- <button id="play" type = "button" onclick = "playPause()">Play</button> -->
 	<!-- add 'controls' when debugging -->
-	<b> This is a practice trial. </b>
+	<!-- <b> This is a practice trial. </b> -->
 <!--     <p id="practiceStory" class="p_story" style="font-size: 17"> </p>
     <button onclick="p_showButton()" class = "p_showButton">Next</button>
     <script> 
@@ -79,6 +79,13 @@
           $(".p_show_answer_button").show();
       }
     </script> -->
+      <div id="practiceStory" class="p_story">
+        <p id="practiceStoryStory" class="storyText" style="font-size: 17"> </p> 
+        <p class="number"> Page <span id="pageNumber">XXX</span></p>
+      </div>
+      <img src = "expt_files/elephant.jpg" class = "p_hidden_listen puppet2" id = "puppet1" width = "230">
+
+
 
   <div>
     <img src = "expt_files/shark.jpg" class = "p_hidden_question puppet" id = "puppet2" width="130">
@@ -86,14 +93,11 @@
       <p class="p_hidden_question text" style="font-size: 17"><!-- The shark was swimming around when he spotted his friend, elephant. "Hi elephant!", said the shark.  -->Then the shark asked:</p>
       <p id="practiceQuestion" class="p_hidden_question text" style="font-weight: bold; font-size: 17"></p>
 
-      <div id="practiceStory" class="p_story">
-        <p id="practiceStoryStory" class="storyText" style="font-size: 17"> </p> 
-        <p class="number"> Page <span id="pageNumber">XXX</span></p>
-      </div>
+
       <button onclick="p_showButton()" class = "p_showButton">Next</button>
       <script> 
       function p_showButton() {
-          $(".p_hidden_question").show();
+          $(".p_hidden_listen").show();
           $(".p_showButton").hide();
           $(".p_story").show();
           $(".p_show_answer_button").show();

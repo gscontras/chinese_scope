@@ -18,11 +18,20 @@
 	transform: scaleX(-1);
 }
 
+.puppet2{
+	display: inline-block;
+	position: relative;
+	top: -150px;
+	margin-right: -133;
+	transform: scaleX(-1);
+}
+
 .center {
 	display: inline-block;
 }
 
 #practiceStory {
+	display: inline-block;
 	border: 3px solid black;
 	width: 250px;
 	height: 400px;
