@@ -68,46 +68,50 @@
   <div class="slide" id="one_slider_practice">
 	<!-- <button id="play" type = "button" onclick = "playPause()">Play</button> -->
 	<!-- add 'controls' when debugging -->
-	<!-- <b> This is a practice trial. </b> -->
-<!--     <p id="practiceStory" class="p_story" style="font-size: 17"> </p>
-    <button onclick="p_showButton()" class = "p_showButton">Next</button>
-    <script> 
-      function p_showButton() {
-          $(".p_hidden_question").show();
-          $(".p_showButton").hide();
-          $(".p_story").hide();
-          $(".p_show_answer_button").show();
-      }
-    </script> -->
+
       <div id="practiceStory" class="p_story">
         <p id="practiceStoryStory" class="storyText" style="font-size: 17"> </p> 
         <p class="number"> Page <span id="pageNumber">XXX</span></p>
       </div>
-      <img src = "expt_files/elephant.jpg" class = "p_hidden_listen puppet2" id = "puppet1" width = "230">
+      <img src = "expt_files/elephant.jpg" class = "p_hidden_listen puppet" id = "puppet1" width = "230">
 
+  <div>
+      <div class = "center">
+      <button onclick="p_showButton()" class = "p_showButton">Next</button>
+      <script> 
+      function p_showButton() {
+          $(".p_hidden_listen").hide();
+          $(".p_showButton").hide();
+          $(".p_hidden_feature").show(); 
+          $(".p_hidden_say").show();                   
+          $(".p_show_button").show();
+        }
+      </script>
 
+      <p class="p_hidden_feature text" style="font-size: 17">A shark comes, the elephant describes the story to the shark:</p>
+      <p id="practiceFeatures" class="p_hidden_feature text" style="font-weight: bold; font-size: 17"></p>
+      </div>
+    <img src = "expt_files/elephant.jpg" class = "p_hidden_say puppet" id = "puppet1" width = "130">
 
   <div>
     <img src = "expt_files/shark.jpg" class = "p_hidden_question puppet" id = "puppet2" width="130">
       <div class = "center">
-      <p class="p_hidden_question text" style="font-size: 17"><!-- The shark was swimming around when he spotted his friend, elephant. "Hi elephant!", said the shark.  -->Then the shark asked:</p>
-      <p id="practiceQuestion" class="p_hidden_question text" style="font-weight: bold; font-size: 17"></p>
-
-
-      <button onclick="p_showButton()" class = "p_showButton">Next</button>
+      <button onclick="p_show_button()" class = "p_show_button">Next</button>
       <script> 
-      function p_showButton() {
-          $(".p_hidden_listen").show();
-          $(".p_showButton").hide();
-          $(".p_story").show();
+      function p_show_button() {
+          $(".p_show_button").hide();
+          $(".p_hidden_say").hide();
           $(".p_show_answer_button").show();
+          $(".p_hidden_question").show();          
         }
       </script>
 
-      <p class="p_hidden_answer text" style="font-size: 17"><!-- The elephant was happy to see his friend, shark. "Hello shark!", said the elephant.  -->Then the elephant said:</p>
+      <p class="p_hidden_question text" style="font-size: 17">The shark asked:</p>
+      <p id="practiceQuestion" class="p_hidden_question text" style="font-weight: bold; font-size: 17"></p>
+      <p class="p_hidden_answer text" style="font-size: 17">Then the elephant said:</p>
       <p id="practiceSentence" class="p_hidden_answer text" style="font-weight: bold; font-size: 17"></p>
       </div>
-    <img src = "expt_files/elephant.jpg" class = "p_hidden_question puppet" id = "puppet1" width = "130"> 
+    <img src = "expt_files/elephant.jpg" class = "p_hidden_answer puppet" id = "puppet1" width = "130"> 
   </div>
 
   <button onclick="p_show_answer_button()" class = "p_show_answer_button">Next</button>

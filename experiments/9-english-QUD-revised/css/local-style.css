@@ -11,14 +11,14 @@
 
 .puppet {
 	display: inline-block;
-	/*width: 150;
+/*	width: 150;*/
 	position: relative;
-	top: -20px;*/
+/*	top: -20px;*/
 	padding: 5px;
 	transform: scaleX(-1);
 }
 
-.puppet2{
+.p_hidden_listen{
 	display: inline-block;
 	position: relative;
 	top: -150px;
