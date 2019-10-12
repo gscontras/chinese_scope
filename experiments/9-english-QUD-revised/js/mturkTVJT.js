@@ -40,6 +40,7 @@ function make_slides(f) {
 		//$("#p_justification").val('');
 		$(".p_err").hide();
 		$(".p_hidden").hide();
+    $(".p_hidden_listen").show();    
     $(".p_hidden_question").hide();
     $(".p_hidden_answer").hide();
     $(".p_hidden_feature").hide();

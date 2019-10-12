@@ -12,7 +12,7 @@
 .puppet {
 	display: inline-block;
 /*	width: 150;*/
-	position: relative;
+/*	position: relative;*/
 /*	top: -20px;*/
 	padding: 5px;
 	transform: scaleX(-1);
