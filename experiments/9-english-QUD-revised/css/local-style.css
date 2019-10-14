@@ -19,10 +19,10 @@
 }
 
 .p_hidden_listen{
-	display: inline-block;
-	position: relative;
-	top: -150px;
-	margin-right: -133;
+	/*display: inline-block;*/
+	/*position: relative;*/
+	/*top: -150px;*/
+	/*margin-right: -133;*/
 	transform: scaleX(-1);
 }
 
@@ -38,6 +38,14 @@
 	display: inline-block;
 }
 
+.elephant_story {
+	display: inline-block;
+	padding: 1px;
+	min-height: 1px;
+	width:200px;
+	/*border-color: blue;*/
+}
+
 #practiceStory {
 	display: inline-block;
 	border: 3px solid black;
@@ -45,6 +53,14 @@
 	height: 400px;
 	padding: 15px;
 }
+
+/*.elephant {
+	border: 2px solid blue;
+}
+
+.shark {
+	border: 2px solid red;
+}*/
 
 .storyText {
 	text-align: left;

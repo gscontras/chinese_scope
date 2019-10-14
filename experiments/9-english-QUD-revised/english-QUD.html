@@ -54,7 +54,7 @@
 
   <div class="slide" id="instructions">
     <h3>Instructions</h3>
-    <p>You will be given a short story to read. After you read the story, click "next" and two puppets will discuss the story.  Your goal is to decide whether the second puppet is right or wrong in his account of the story. There will be two practice trials before the experiment begins. </p>
+    <p>You will see two puppets, Elephant and Shark, discuss stories that Elephant is reading in his storybook. Shark asks Elephant about the story, and your goal is to decide whether Elephant's answer is right or wrong.</p>
     <button onclick="_s.button()">Continue</button>
   </div>
   
@@ -69,18 +69,27 @@
 	<!-- <button id="play" type = "button" onclick = "playPause()">Play</button> -->
 	<!-- add 'controls' when debugging -->
 
+      <p>Elephant was reading a story in his storybook.</p>
+      <div class="elephant_story">
+      <div class="elephant_story">
+        <img src = "expt_files/shark.jpg" class = "p_hidden_say puppet shark" width = "200">
+      </div>
+      </div>
       <div id="practiceStory" class="p_story">
         <p id="practiceStoryStory" class="storyText" style="font-size: 17"> </p> 
         <p class="number"> Page <span id="pageNumber">XXX</span></p>
       </div>
-      <img src = "expt_files/elephant.jpg" class = "p_hidden_listen puppet" id = "puppet1" width = "230">
+      <div class="elephant_story">
+        <img src = "expt_files/elephant.jpg" class = "p_hidden_listen puppet elephant" id = "puppet1" width = "200">
+      </div>
 
   <div>
+      <!-- <img src = "expt_files/shark.jpg" class = "p_hidden_say puppet" id = "puppet2" width="130"> -->
       <div class = "center">
       <button onclick="p_showButton()" class = "p_showButton">Next</button>
       <script> 
       function p_showButton() {
-          $(".p_hidden_listen").hide();
+          // $(".p_hidden_listen").hide();
           $(".p_showButton").hide();
           $(".p_hidden_feature").show(); 
           $(".p_hidden_say").show();                   
@@ -88,45 +97,52 @@
         }
       </script>
 
-      <p class="p_hidden_feature text" style="font-size: 17">A shark comes, the elephant describes the story to the shark:</p>
-      <p id="practiceFeatures" class="p_hidden_feature text" style="font-weight: bold; font-size: 17"></p>
+      <p class="p_hidden_feature text">Then, Shark came and asked Elephant to tell her about the story.<br><br>
+      Elephant said:</p>
+      <p class="p_hidden_feature text" style="font-weight: bold">
+        <font id="practiceFeatures" color="blue"></font>
+      </p>
       </div>
-    <img src = "expt_files/elephant.jpg" class = "p_hidden_say puppet" id = "puppet1" width = "130">
+    <!-- <img src = "expt_files/elephant.jpg" class = "p_hidden_say puppet" id = "puppet1" width = "130"> -->
   </div>
 
 
   <div>
-    <img src = "expt_files/shark.jpg" class = "p_hidden_question puppet" id = "puppet2" width="130">
+    <!-- <img src = "expt_files/shark.jpg" class = "p_hidden_question puppet" id = "puppet2" width="130"> -->
       <div class = "center">
       <button onclick="p_show_button()" class = "p_show_button">Next</button>
       <script> 
       function p_show_button() {
           $(".p_show_button").hide();
-          $(".p_hidden_say").hide();
+          // $(".p_hidden_say").hide();
           $(".p_show_answer_button").show();
           $(".p_hidden_question").show();          
         }
       </script>
-      <p class="p_hidden_question text" style="font-size: 17;">The shark asked:</p>
-      <p id="practiceQuestion" class="p_hidden_question text" style="font-weight: bold; font-size: 17;"></p>
-      <p class="p_hidden_answer text" style="font-size: 17">Then the elephant said:</p>
-      <p id="practiceSentence" class="p_hidden_answer text" style="font-weight: bold; font-size: 17"></p>
+      <p class="p_hidden_question text">Then, Shark asked:</p>
+      <p  class="p_hidden_question text" style="font-weight: bold;">
+        <font id="practiceQuestion" color="red"></font>
+      </p>
+      <p class="p_hidden_answer text">Elephant answered:</p>
+      <p class="p_hidden_answer text" style="font-weight: bold;">
+        <font id="practiceSentence" color="blue"></font>
+      </p>
       </div>
-    <img src = "expt_files/elephant.jpg" class = "p_hidden_answer puppet" id = "puppet1" width = "130"> 
+    <!-- <img src = "expt_files/elephant.jpg" class = "p_hidden_answer puppet" id = "puppet1" width = "130">  -->
   </div>
 
   <button onclick="p_show_answer_button()" class = "p_show_answer_button">Next</button>
     <script> 
       function p_show_answer_button() {
-          $(".p_hidden_question").hide();
+          // $(".p_hidden_question").hide();
           $(".p_hidden_answer").show();
           $(".p_show_answer_button").hide();
           $(".p_hidden").show();
       }
     </script>
-    <p class = "p_hidden text" style="font-size: 17"> Is the elephant right?</p>
+    <p class = "p_hidden text"><b>Do you agree with Elephant's answer?</b></p>
     <table id="practice_slider" class="slider_table p_hidden text">
-      <tr><td class="left p_hidden text">definitely not</td><td class="right p_hidden text">definitely</td></tr>
+      <tr><td class="left p_hidden text"><b>definitely not</b></td><td class="right p_hidden text"><b>definitely</b></td></tr>
       <tr><td colspan="2"><div id="prac_single_slider" class="slider p_hidden text"></div></td></tr>
     </table>
 	  <!-- <p class = "p_hidden text">Please justify your answer:</p>
