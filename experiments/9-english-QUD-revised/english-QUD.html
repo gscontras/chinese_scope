@@ -117,6 +117,7 @@
   <button onclick="p_show_answer_button()" class = "p_show_answer_button">Next</button>
     <script> 
       function p_show_answer_button() {
+          $(".p_hidden_question").hide();
           $(".p_hidden_answer").show();
           $(".p_show_answer_button").hide();
           $(".p_hidden").show();
