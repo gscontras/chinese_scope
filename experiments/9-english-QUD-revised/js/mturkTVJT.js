@@ -237,6 +237,8 @@ function make_slides(f) {
 
       // exp.condition = exp.number + exp.context
 
+      var pageNumber = exp.phase
+
       exp.item = stim["item"]
 
       if (exp.quantifier == "every") {
@@ -247,7 +249,7 @@ function make_slides(f) {
 	    $("#expStoryStory").html(stim["contexts"][exp.number][exp.context]["story"]);
       $("#expQUD").html("\"" + stim["QUDs"][exp.QUD] + "\"");
       $("#expFeatures").html(stim["contexts"][exp.number][exp.context]["feature"]);
-      $("#pageNumber").html(exp.phase);
+      $("#pageNumberTest").html(exp.phase);
       this.init_sliders();
       exp.sliderPost = null;	  //erase current slider value
 	  
