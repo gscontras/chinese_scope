@@ -26,6 +26,14 @@
 	transform: scaleX(-1);
 }
 
+.hidden_listen{
+	display: inline-block;
+	position: relative;
+	top: -150px;
+	margin-right: -133;
+	transform: scaleX(-1);
+}
+
 .center {
 	display: inline-block;
 }
@@ -52,7 +60,11 @@
 }
 
 #expStory {
+	display: inline-block;
 	border: 3px solid black;
+	width: 250px;
+	height: 400px;
+	padding: 15px;
 }
 
 
