@@ -18,21 +18,21 @@
 	transform: scaleX(-1);
 }
 
-.p_hidden_listen{
-	/*display: inline-block;*/
-	/*position: relative;*/
-	/*top: -150px;*/
-	/*margin-right: -133;*/
-	transform: scaleX(-1);
-}
-
-.hidden_listen{
+/*.p_hidden_listen{
 	display: inline-block;
 	position: relative;
 	top: -150px;
 	margin-right: -133;
 	transform: scaleX(-1);
-}
+}*/
+
+/*.hidden_listen{
+	display: inline-block;
+	position: relative;
+	top: -150px;
+	margin-right: -133;
+	transform: scaleX(-1);
+}*/
 
 .center {
 	display: inline-block;
@@ -40,7 +40,7 @@
 
 .elephant_story {
 	display: inline-block;
-	padding: 1px;
+	padding: 0px;
 	min-height: 1px;
 	width:200px;
 	/*border-color: blue;*/
