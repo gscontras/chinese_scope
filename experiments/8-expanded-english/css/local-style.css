@@ -30,6 +30,19 @@
 	border: 3px solid black;
 }
 
+figcaption {
+  display: block;
+}
+
+figure{
+	display:inline-block;
+}
+
+.bins {
+	display: inline-block;
+/*  	margin-left: auto;
+  	margin-right: auto;*/
+}
 
 .progress {
     position: absolute;
