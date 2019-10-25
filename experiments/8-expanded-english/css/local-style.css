@@ -30,7 +30,7 @@
 	border: 3px solid black;
 }
 
-figcaption {
+/*figcaption {
   display: block;
 }
 
@@ -39,10 +39,11 @@ figure{
 }
 
 .bins {
-	display: inline-block;
+	display: inline-block;*/
 /*  	margin-left: auto;
   	margin-right: auto;*/
-}
+/*}*/
+
 
 .progress {
     position: absolute;
