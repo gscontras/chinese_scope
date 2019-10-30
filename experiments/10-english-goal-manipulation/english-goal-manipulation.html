@@ -54,7 +54,7 @@
 
   <div class="slide" id="instructions">
     <h3>Instructions</h3>
-    <p>You will be helping Shark sort storybooks into the appropriate bins based on who you decided is right or wrong. First, you will be given a short story to read. After you read the story, click "next" and two puppets will discuss the story. Your goal is to decide whether the second puppet is right or wrong in his account of the story.</p>
+    <p>You will be helping Shark sort storybooks into the appropriate bins based on who you decided is right or wrong. First, you will be given a short story to read. After you read the story, two puppets will discuss the story. Your goal is to decide whether the second puppet is right or wrong in his account of the story.</p>
     <button onclick="_s.button()">Continue</button>
   </div>
   
@@ -65,44 +65,47 @@
 
   <b> Shark has to sort stories. </b>
   <br>
+
+
   <figure>
-  <img src="expt_files/graybin.jpg" class="bins" width = "200">
-  <figcaption>0 cars</figcaption>
+    <img src="expt_files/graybin.jpg" class="bins" width = "200">
+    <figcaption>0 <t id="practiceItem" class = "bins"></t></figcaption>
   </figure>
+
   <figure>
-  <img src="expt_files/redbin.jpg" class="bins" width = "200"> 
-  <figcaption>2 cars</figcaption>
+    <img src="expt_files/redbin.jpg" class="bins" width = "200"> 
+    <figcaption><t id="practiceNumber"></t> <t id="practiceItem" class ="bins"></t></figcaption>
   </figure>
 
     <p id="practiceStory" style="font-size: 17"> </p>
-    <button onclick="p_showButton()" class = "p_showButton">Next</button>
+  <!--   <button onclick="p_showButton()" class = "p_showButton">Next</button>
     <script> 
       function p_showButton() {
           $(".p_hidden").show();
           $(".p_showButton").hide();
       }
-    </script>
+    </script> -->
 
   <div>
-    <img src = "expt_files/shark.jpg" class = "p_hidden puppet" id = "puppet2" width="130">
+    <img src = "expt_files/shark.jpg" class = "p puppet" id = "puppet2" width="130">
       <div class = "center">
-      <p class="p_hidden text" style="font-size: 17">The shark asked:</p>
-      <p id="practiceQuestion" class="p_hidden text" style="font-weight: bold; font-size: 17"></p>
-      <p class="p_hidden text" style="font-size: 17">The elephant said:</p>
+      <p class="p text" style="font-size: 17">The shark asked:</p>
+      <p id="practiceQuestion" class="p text" style="font-weight: bold; font-size: 17"></p>
+      <p class="p text" style="font-size: 17">The elephant answered:</p>
 	<!-- <p><img src = "../_shared/images/puppet.jpg" class = "p_hidden" id = "puppet"></p> -->
-      <p id="practiceSentence" class="p_hidden text" style="font-weight: bold; font-size: 17"></p>
+      <p id="practiceSentence" class="p text" style="font-weight: bold; font-size: 17"></p>
       </div>
-    <img src = "expt_files/elephant.jpg" class = "p_hidden puppet" id = "puppet1" width = "130"> 
+    <img src = "expt_files/elephant.jpg" class = "p puppet" id = "puppet1" width = "130"> 
   </div>
-    <p class = "p_hidden text" style="font-size: 17"> Is the elephant right?</p>
-    <table id="practice_slider" class="slider_table p_hidden text">
-      <tr><td class="left p_hidden text">definitely not</td><td class="right p_hidden text">definitely</td></tr>
-      <tr><td colspan="2"><div id="prac_single_slider" class="slider p_hidden text"></div></td></tr>
+    <p class = "p text" style="font-size: 17"> Is the elephant right?</p>
+    <table id="practice_slider" class="slider_table p text">
+      <tr><td class="left p text">definitely not</td><td class="right p text">definitely</td></tr>
+      <tr><td colspan="2"><div id="prac_single_slider" class="slider p text"></div></td></tr>
     </table>
 	  <!-- <p class = "p_hidden text">Please justify your answer:</p>
 	  <textarea id="p_justification" class = "p_hidden text" rows="3" cols="50"></textarea>
 	  <br> -->
-    <button onclick="_s.button()" class = "p_hidden text">Continue</button>
+    <button onclick="_s.button()" class = "p text">Continue</button>
     <div class="p_err text" style = "color:red">Please adjust the slider before continuing. <br><br></div>
 	<!--<div class="p_jerr text" style = "color:red">Please justify your answer in the text box before continung.<br><br></div> -->
 </div>
