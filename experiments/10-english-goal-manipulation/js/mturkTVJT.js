@@ -49,9 +49,10 @@ function make_slides(f) {
 		$("#practiceSentence").html(stim["practice"]["sentence"]);
 		$("#practiceStory").html(stim["practice"]["story"]);
     $("#practiceQuestion").html(stim["practice"]["question"]);
-    $("#practiceItem").html(stim["practice"]["item"])
+    $("#practiceBin1").html(stim["practice"]["item"])
+    $("#practiceBin2").html(stim["practice"]["item"])
     $("#practiceNumber").html(stim["practice"]["number"])   
-    $("#practiceNumber").html(stim["practice"]["number"])   
+  
 		this.init_sliders();
       	exp.sliderPost = null;	  //erase current slider value
         function p_showButton() {
