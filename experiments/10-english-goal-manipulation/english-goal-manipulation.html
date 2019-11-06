@@ -63,9 +63,7 @@
 	<!-- add 'controls' when debugging -->
 	
 
-  <b> Shark has to sort stories. </b>
-  <br>
-
+  <p> Shark is trying to oraganizer her storybooks about XXX. She has been sorting books according to XXX.<p>
 
   <figure>
     <img src="expt_files/graybin.jpg" class="bins" width = "200">
@@ -77,7 +75,9 @@
     <figcaption><t id="practiceNumber"></t> <t id="practiceBin2" class ="bins"></t></figcaption>
   </figure>
 
-    <p id="practiceStory" style="font-size: 17"> </p>
+  <p>Shark's friend, Elephant, is helping her by reading some of the stories. Here is a story that Elephant read:<p>
+    
+  <p id="practiceStory" style="font-size: 17"> </p>
   <!--   <button onclick="p_showButton()" class = "p_showButton">Next</button>
     <script> 
       function p_showButton() {
@@ -89,15 +89,15 @@
   <div>
     <img src = "expt_files/shark.jpg" class = "p puppet" id = "puppet2" width="130">
       <div class = "center">
-      <p class="p text" style="font-size: 17">The shark asked:</p>
+      <p class="p text" style="font-size: 17">After Elephant read the story, Shark asked:</p>
       <p id="practiceQuestion" class="p text" style="font-weight: bold; font-size: 17"></p>
-      <p class="p text" style="font-size: 17">The elephant answered:</p>
+      <p class="p text" style="font-size: 17">Elephant answered:</p>
 	<!-- <p><img src = "../_shared/images/puppet.jpg" class = "p_hidden" id = "puppet"></p> -->
       <p id="practiceSentence" class="p text" style="font-weight: bold; font-size: 17"></p>
       </div>
     <img src = "expt_files/elephant.jpg" class = "p puppet" id = "puppet1" width = "130"> 
   </div>
-    <p class = "p text" style="font-size: 17"> Is the elephant right?</p>
+    <p class = "p text" style="font-size: 17"> Is Elephant right?</p>
     <table id="practice_slider" class="slider_table p text">
       <tr><td class="left p text">definitely not</td><td class="right p text">definitely</td></tr>
       <tr><td colspan="2"><div id="prac_single_slider" class="slider p text"></div></td></tr>
@@ -115,33 +115,36 @@
   <div class="slide" id="one_slider">
 	<!-- <button id="play" type = "button" onclick = "playPause()">Play</button> -->
 	<!-- add 'controls' when debugging -->
-    <p id="expStory" style="font-size: 17"> </p>
-    <button onclick="showButton()" class = "showButton">Next</button>
-    <script>
-    function showButton() {
-      $(".hidden").show();
-      $(".showButton").hide();
-    }
-    </script>
-  <div>
-    <img src = "expt_files/shark.jpg" class = "hidden puppet" id = "puppet2" width="130">
-      <div class = "center">
-      <p class="hidden text" style="font-size: 17">The shark asked:</p>
-      <p id="expQUD" class="hidden text" style="font-weight: bold; font-size: 17"></p>
-      <p class="hidden text" style="font-size: 17">The elephant said:</p>
-      <p id="testSentence" class="hidden text" style="font-weight: bold; font-size: 17"></p>
-      </div>
-    <img src = "expt_files/elephant.jpg" class = "hidden puppet" id = "puppet1" width="130">
-  </div>
-	<p class = "hidden" style="font-size: 17">Is the elephant right?</p>
-    <table id="slider_table" class="slider_table hidden">
-      <tr><td class="left hidden">definitely not</td><td class="right hidden">definitely</td></tr>
-      <tr><td colspan="2"><div id="single_slider" class="slider hidden"></div></td></tr>
-    </table>
+
+    <p> Shark is trying to oraganizer her storybooks about <span id="topic"></span>. She has been sorting books according to <span id="goal"></span>.<p>
+
+    <div> <img src = "expt_files/shark.jpg" class = "puppet" id = "puppet2" width="130">
+      <span id="bins"></span>
+    </div>
+
+    <p>Shark's friend, Elephant, is helping her by reading some of the stories. Here is a story that Elephant read:<p>
+
+    <div>
+      <p id="expStory" style="font-size: 17"> </p><img src = "expt_files/elephant.jpg" class = "puppet" id = "puppet1" width="130">
+    </div>
+
+    <div class = "center">
+      <p class="text" style="font-size: 17">Shark asked:</p>
+      <p id="expQUD" class="text" style="font-weight: bold; font-size: 17"></p>
+      <p class="text" style="font-size: 17">Elephant answered:</p>
+      <p id="testSentence" class="text" style="font-weight: bold; font-size: 17"></p>
+    </div>
+    
+
+	  <p style="font-size: 17">Is the elephant right?</p>
+      <table id="slider_table" class="slider_table">
+        <tr><td class="left">definitely not</td><td class="right">definitely</td></tr>
+        <tr><td colspan="2"><div id="single_slider" class="slider"></div></td></tr>
+      </table>
 	  <!-- <p class = "hidden">Please justify your answer:</p>
 	  <textarea id="justification" class = "hidden" rows="3" cols="50"></textarea>
 	  <br> -->
-    <button onclick="_s.button()" class = "hidden">Continue</button>
+    <button onclick="_s.button()">Continue</button>
     <div class="err" style = "color:red">Please adjust the slider before continuing. <br><br></div>
 	<!-- <div class="jerr" style = "color:red">Please justify your answer in the text box before continuing. <br><br></div> -->
 </div>

@@ -32,7 +32,14 @@ length(unique(d$workerid)) # n=115 (117)
 
 ################################
 
-t = d[d$trial_type=="one_slider"&d$item!="control1"&d$item!="control2"&d$item!="control3",]
+t = d[d$trial_type=="one_slider"&d$item!="control1"&d$item!="control2"&d$item!="control3"&d$item!="control4"&d$item!="control5"&d$item!="control6"&d$item!="control7"&d$item!="control8",]
+
+######
+### removing fast responders and people who didn't understand
+t = t[t$Answer.time_in_minutes>5.85&t$assess=="Yes",]
+length(unique(t$workerid)) # n=82 (115)
+
+#####
 
 e_agg = aggregate(response~context*number*QUD*quantifier,data=t,FUN=mean)
 e_agg
@@ -60,8 +67,9 @@ e_numeral_plot = ggplot(data=e_numeral_s,aes(x=number,y=response,fill=context))+
   #labs("order\npreference")+
   facet_wrap(~QUD)+
   theme_bw()#+
-#ggsave("../results/english-numeral.png")
 e_numeral_plot
+#ggsave("../results/english-numeral.png")
+
 
 
 e_QUDi_s = bootsSummary(data=t, measurevar="response", groupvars=c("context","number","QUD","item"))
