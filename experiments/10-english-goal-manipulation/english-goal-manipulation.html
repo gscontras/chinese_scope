@@ -44,7 +44,7 @@
 
   <div class="slide" id="i0" >
     <img src="../_shared/images/meaningLab.png" alt="University of California, Meaning Lab" id="meaningLabLogo"></img>
-    <p>This HIT involves interpreting stories of English. The task should take about six minutes. Please pay attention. Thanks!</p>
+    <p>This HIT involves interpreting stories of English. The task should take about two minutes. Please pay attention. Thanks!</p>
     <button id="start_button" type="button">Start Experiment</button>
 	  <p id="legal">Legal information: By answering the following questions, you are participating in a study being performed by cognitive scientists at the University of California, Irvine. If you have questions about this research, please contact Greg Scontras at <a href="mailto://g.scontras@uci.edu">g.scontras@uci.edu</a>. You must be  at least 18 years old to participate. Your participation in this research is voluntary. You may decline to answer any or all of the following questions. You may decline further participation, at any time, without adverse consequences. Your anonymity is assured; the researchers who have requested your participation will not receive any personal information about you.</p>
 <!--     <p id="instruct-text">You will hear stories followed by a description of the story and be asked to say if the description is right or wrong. The HIT should take 10-15 minutes. Please pay attention, thanks!</p>
@@ -54,75 +54,24 @@
 
   <div class="slide" id="instructions">
     <h3>Instructions</h3>
-    <p>You will be helping Shark sort storybooks into the appropriate bins based on who you decided is right or wrong. First, you will be given a short story to read. After you read the story, two puppets will discuss the story. Your goal is to decide whether the second puppet is right or wrong in his account of the story.</p>
+    <p>Shark is very organized. She likes to sort her storybooks. Today, Shark's friend, Elephant, is helping her by reading some of the stories. Your job is to make sure that Elephant says the right thing.</p>
     <button onclick="_s.button()">Continue</button>
   </div>
   
-  <div class="slide" id="one_slider_practice">
-	<!-- <button id="play" type = "button" onclick = "playPause()">Play</button> -->
-	<!-- add 'controls' when debugging -->
-	
-
-  <p> Shark is trying to oraganizer her storybooks about XXX. She has been sorting books according to XXX.<p>
-
-<!--   <figure>
-    <img src="expt_files/graybin.jpg" class="bins" width = "200">
-    <figcaption>0 <t id="practiceBin1" class = "bins"></t></figcaption>
-  </figure>
-
-  <figure>
-    <img src="expt_files/redbin.jpg" class="bins" width = "200"> 
-    <figcaption><t id="practiceNumber"></t> <t id="practiceBin2" class ="bins"></t></figcaption>
-  </figure> -->
-
-  <p>Shark's friend, Elephant, is helping her by reading some of the stories. Here is a story that Elephant read:<p>
-    
-  <p id="practiceStory" style="font-size: 17"> </p>
-  <!--   <button onclick="p_showButton()" class = "p_showButton">Next</button>
-    <script> 
-      function p_showButton() {
-          $(".p_hidden").show();
-          $(".p_showButton").hide();
-      }
-    </script> -->
-
-  <div>
-    <img src = "expt_files/shark.jpg" class = "p puppet" id = "puppet2" width="130">
-      <div class = "center">
-      <p class="p text" style="font-size: 17">After Elephant read the story, Shark asked:</p>
-      <p id="practiceQuestion" class="p text" style="font-weight: bold; font-size: 17"></p>
-      <p class="p text" style="font-size: 17">Elephant answered:</p>
-	<!-- <p><img src = "../_shared/images/puppet.jpg" class = "p_hidden" id = "puppet"></p> -->
-      <p id="practiceSentence" class="p text" style="font-weight: bold; font-size: 17"></p>
-      </div>
-    <img src = "expt_files/elephant.jpg" class = "p puppet" id = "puppet1" width = "130"> 
-  </div>
-    <p class = "p text" style="font-size: 17"> Is Elephant right?</p>
-    <table id="practice_slider" class="slider_table p text">
-      <tr><td class="left p text">definitely not</td><td class="right p text">definitely</td></tr>
-      <tr><td colspan="2"><div id="prac_single_slider" class="slider p text"></div></td></tr>
-    </table>
-	  <!-- <p class = "p_hidden text">Please justify your answer:</p>
-	  <textarea id="p_justification" class = "p_hidden text" rows="3" cols="50"></textarea>
-	  <br> -->
-    <button onclick="_s.button()" class = "p text">Continue</button>
-    <div class="p_err text" style = "color:red">Please adjust the slider before continuing. <br><br></div>
-	<!--<div class="p_jerr text" style = "color:red">Please justify your answer in the text box before continung.<br><br></div> -->
-</div>
-  </div>
 
   <!-- In order to bug test, it helps to add 'controls' to the video element below -->
   <div class="slide" id="one_slider">
 	<!-- <button id="play" type = "button" onclick = "playPause()">Play</button> -->
 	<!-- add 'controls' when debugging -->
 
-    <p> Shark is trying to oraganize her storybooks about <span id="topic"></span>. She has been sorting books according to <span id="goal"></span>.<p>
+    <p> Shark is trying to oraganize her storybooks about <b><span id="topic"></span></b>. She has been sorting books according to <b><span id="goal"></span></b>.<p>
 
     <div> <img src = "expt_files/shark.jpg" class = "puppet" id = "puppet2" width="130">
       <span id="bins"></span>
     </div>
 
-    <p>Shark's friend, Elephant, is helping her by reading some of the stories. Here is a story that Elephant read:<p>
+    <p>Shark's friend, Elephant, is helping her by reading some of the stories.<br>
+      Here is a story that Elephant read:<p>
 
     <div>
       <div id="expStory" class="story">
@@ -140,7 +89,7 @@
     </div>
     
 
-	  <p>Is the elephant right?</p>
+	  <p>Is Elephant right?</p>
       <table id="slider_table" class="slider_table">
         <tr><td class="left">definitely not</td><td class="right">definitely</td></tr>
         <tr><td colspan="2"><div id="single_slider" class="slider"></div></td></tr>

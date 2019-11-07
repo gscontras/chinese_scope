@@ -22,73 +22,73 @@ function make_slides(f) {
     }
   });
   
-    slides.one_slider_practice = slide({
-    name : "one_slider_practice",
+ //    slides.one_slider_practice = slide({
+ //    name : "one_slider_practice",
 
-    /* trial information for this block
-     (the variable 'stim' will change between each of these values,
-      and for each of these, present_handle will be run.) */
+ //    /* trial information for this block
+ //     (the variable 'stim' will change between each of these values,
+ //      and for each of these, present_handle will be run.) */
 	  
 
-	present : [
-		{practice: {item: "cars", number: "2", story: "This story features a smurf, a salesman and five cars. The smurf decided that he wanted to buy a car. First the salesman showed him a silver convertible. The smurf liked it and purchased it for two pennies. The salesman then showed him a yellow car. The smurf liked it and also purchased it for two pennies. The smurf only had one penny left, so he decided he was finished purchasing.", sentence: "\"The smurf bought two cars.\"", question: "\"What happened to the smurf?\""}},
-		{practice: {item: "dogs", number: "3", story: "This story features three dogs, a cat, and a table. The cat was asleep on the table, and the dogs decided to wake it up. The first dog jumped on the table, but the cat did not wake up. The second dog jumped on the table, but the cat still did not wake up. The third dog said he wasn't going to jump on the table because he was too small.", sentence: "\"All the dogs jumped on the table.\"", question: "\"What happened to the dogs?\""}},
-	],
+	// present : [
+	// 	{practice: {item: "cars", number: "2", story: "This story features a smurf, a salesman and five cars. The smurf decided that he wanted to buy a car. First the salesman showed him a silver convertible. The smurf liked it and purchased it for two pennies. The salesman then showed him a yellow car. The smurf liked it and also purchased it for two pennies. The smurf only had one penny left, so he decided he was finished purchasing.", sentence: "\"The smurf bought two cars.\"", question: "\"What happened to the smurf?\""}},
+	// 	{practice: {item: "dogs", number: "3", story: "This story features three dogs, a cat, and a table. The cat was asleep on the table, and the dogs decided to wake it up. The first dog jumped on the table, but the cat did not wake up. The second dog jumped on the table, but the cat still did not wake up. The third dog said he wasn't going to jump on the table because he was too small.", sentence: "\"All the dogs jumped on the table.\"", question: "\"What happened to the dogs?\""}},
+	// ],
 
-    //this gets run only at the beginning of the block
-    present_handle : function(stim) {
-		//$("#p_justification").val('');
-		$(".p_err").hide();
-		$(".p_hidden").hide();
-		$(".p_jerr").hide();
-		$(".text_response").val('');
-		$(".p_showButton").show();
+ //    //this gets run only at the beginning of the block
+ //    present_handle : function(stim) {
+	// 	//$("#p_justification").val('');
+	// 	$(".p_err").hide();
+	// 	$(".p_hidden").hide();
+	// 	$(".p_jerr").hide();
+	// 	$(".text_response").val('');
+	// 	$(".p_showButton").show();
 
-		this.stim = stim; //I like to store this information in the slide so I can record it later.
+	// 	this.stim = stim; //I like to store this information in the slide so I can record it later.
 		
-		$("#practiceSentence").html(stim["practice"]["sentence"]);
-		$("#practiceStory").html(stim["practice"]["story"]);
-    $("#practiceQuestion").html(stim["practice"]["question"]);
-    $("#practiceBin1").html(stim["practice"]["item"])
-    $("#practiceBin2").html(stim["practice"]["item"])
-    $("#practiceNumber").html(stim["practice"]["number"])   
+	// 	$("#practiceSentence").html(stim["practice"]["sentence"]);
+	// 	$("#practiceStory").html(stim["practice"]["story"]);
+ //    $("#practiceQuestion").html(stim["practice"]["question"]);
+ //    $("#practiceBin1").html(stim["practice"]["item"])
+ //    $("#practiceBin2").html(stim["practice"]["item"])
+ //    $("#practiceNumber").html(stim["practice"]["number"])   
   
-		this.init_sliders();
-      	exp.sliderPost = null;	  //erase current slider value
-        function p_showButton() {
-      		$(".p_hidden").show();
-      		$(".p_showButton").hide();
-    	}
+	// 	this.init_sliders();
+ //      	exp.sliderPost = null;	  //erase current slider value
+ //        function p_showButton() {
+ //      		$(".p_hidden").show();
+ //      		$(".p_showButton").hide();
+ //    	}
 	  
-    },
+ //    },
 	
-	    button : function() {
-		if (exp.sliderPost == null) {
-			$(".p_err").show();
-			} else {
-				this.log_responses();
+	//     button : function() {
+	// 	if (exp.sliderPost == null) {
+	// 		$(".p_err").show();
+	// 		} else {
+	// 			this.log_responses();
 
-					/* use _stream.apply(this); if and only if there is
-					"present" data. (and only *after* responses are logged) */
-					_stream.apply(this);
-		}
-    },
+	// 				/* use _stream.apply(this); if and only if there is
+	// 				"present" data. (and only *after* responses are logged) */
+	// 				_stream.apply(this);
+	// 	}
+ //    },
 
-    init_sliders : function() {
-      utils.make_slider("#prac_single_slider", function(event, ui) {
-        exp.sliderPost = ui.value;
-      });
-    },
+ //    init_sliders : function() {
+ //      utils.make_slider("#prac_single_slider", function(event, ui) {
+ //        exp.sliderPost = ui.value;
+ //      });
+ //    },
 
-    log_responses : function() {
-      exp.data_trials.push({
-        "trial_type" : "one_slider_practice",
-        "response" : exp.sliderPost,
-		//"justification" : $("#p_justification").val(),
-		//put condition here as well
-      });
-    }
-  });
+ //    log_responses : function() {
+ //      exp.data_trials.push({
+ //        "trial_type" : "one_slider_practice",
+ //        "response" : exp.sliderPost,
+	// 	//"justification" : $("#p_justification").val(),
+	// 	//put condition here as well
+ //      });
+ //    }
+ //  });
   
   
 
@@ -100,7 +100,7 @@ function make_slides(f) {
      (the variable 'stim' will change between each of these values,
       and for each of these, present_handle will be run.) */
 
-  present : ([
+  present : [_.sample([
   {item: "frogs",
     contexts: {two: {without: "This story features two frogs, a fence, and a rock. The two frogs decided to play a jumping game. First they looked at the fence, and they concluded that the fence was too big to jump over. Then they looked at the rock. The first frog decided to jump over the rock, but the other frog thought that the rock was also too big to jump over.", with: "This story features two frogs, a fence, and a rock. The two frogs decided to play a jumping game. First they looked at the fence. The first frog jumped over the fence. Then, the second frog jumped over the fence. Then they looked at the rock. The first frog decided to jump over the rock, but the other frog thought that the rock was too big to jump over."}, four: {without: "This story features four frogs, a fence, and a rock. The four frogs decided to play a jumping game. First they looked at the fence, and they concluded that the fence was too big to jump over. Then they looked at the rock. The first two frogs decided to jump over the rock, but the other two frogs thought that the rock was also too big to jump over.", with: "This story features four frogs, a fence, and a rock. The four frogs decided to play a jumping game. First they looked at the fence. The first frog jumped over the fence. Then, the second frog jumped over the fence. Then the third and the fourth frogs jumped over the fence. Then they looked at the rock. The first two frogs decided to jump over the rock, but the other two frogs thought that the rock was too big to jump over."}}, 
     QUDs: {many: "How many frogs jumped over the rock?", all: "Did all of the frogs jump over the rock?", none: "Did none of the frogs jump over the rock?"}, 
@@ -123,7 +123,7 @@ function make_slides(f) {
     contexts: {two: {without: "This story features two dinosaurs, bugs, and fish. The two dinosaurs were hungry and looking for food. The dinosaurs saw some fish in the river but decided they were too hard to catch. One dinosaur decided to eat a bug instead because bugs are easy to catch. The other dinosaur didn't eat anything.", with: "This story features two dinosaurs, bugs, and fish. The two dinosaurs were hungry and looking for food. Each dinosaur ate a fish because fish are easy to catch. The dinosaurs then saw some bugs. One dinosaur was still hungry, so he decided to also eat a bug. The other dinosaur was too full after eating the fish so he didn't eat anything else."}, four: {without: "This story features four dinosaurs, bugs, and fish. The four dinosaurs were hungry and looking for food. The dinosaurs saw some fish in the river but decided they were too hard to catch. Two dinosaurs decided to eat bugs instead because bugs are easy to catch. The other two dinosaurs didn't eat anything.", with: "This story features four dinosaurs, bugs, and fish. The four dinosaurs were hungry and looking for food. Each dinosaur ate a fish because fish are easy to catch. The dinosaurs then saw some bugs. Two dinosaurs were still hungry, so they decided to also eat bugs. The other two dinosaurs were too full after eating the fish so they didn't eat anything else."}}, 
     QUDs: {many: "How many dinosaurs ate bugs?", all: "Did all of the dinosaurs eat bugs?", none: "Did none of the dinosaurs eat bugs?"}, 
     goals: {many:"how many dinosaurs ate bugs", all:"whether all the dinosaurs ate bugs", none:"whether none of the dinosaurs ate bugs"},
-    bins: {many: {two: "<img src = \"expt_files/bins/dinosaur-story/many-two/0-dinosaurs-eat.png\" width=\"130\"><img src = \"expt_files/bins/dinosaur-story/many-two/1-dinosaur-eat.png\" width=\"130\"><img src = \"expt_files/bins/dinosaur-story/many-two/2-dinosaurs-eat.png\" width=\"130\">", four: "<img src = \"expt_files/bins/dinosaur-story/many-four/0-dinosaurs-eat.png\" width=\"130\"><img src = \"expt_files/bins/dinosaur-story/many-four/1-dinosaur-eat.png\" width=\"130\"><img src = \"expt_files/bins/dinosaur-story/many-four/2-dinosaurs-eat.png\" width=\"130\"><br/><img src = \"expt_files/bins/dinosaur-story/many-four/3-dinosaurs-eat.png\" width=\"90\"><img src = \"expt_files/bins/dinosaur-story/many-four/4-dinosaurs-eat.png\" width=\"130\">"}, all: {two: "<img src = \"expt_files/bins/dinosaur-story/all-two/all-dinosaurs-eat.png\" width=\"130\"><img src = \"expt_files/bins/dinosaur-story/all-two/some-dinosaurs-didnt-eat.png\" width=\"130\">", four: ["<img src = \"expt_files/bins/dinosaur-story/all-two/all-dinosaurs-eat.png\" width=\"130\"><img src = \"expt_files/bins/dinosaur-story/all-two/some-dinosaurs-didnt-eat.png\" width=\"130\">"]}, none: {two: "<img src = \"expt_files/bins/dinosaur-story/none-two/no-dinosaurs-eat.png\" width=\"130\"><img src = \"expt_files/bins/dinosaur-story/none-two/some-dinosaurs-eat.png\" width=\"130\">", four: ["<img src = \"expt_files/bins/dinosaur-story/none-two/no-dinosaurs-eat.png\" width=\"130\"><img src = \"expt_files/bins/dinosaur-story/none-two/some-dinosaurs-eats.png\" width=\"130\">"]}},
+    bins: {many: {two: "<img src = \"expt_files/bins/dinosaur-story/many-two/0-dinosaurs-eat.png\" width=\"130\"><img src = \"expt_files/bins/dinosaur-story/many-two/1-dinosaur-eat.png\" width=\"130\"><img src = \"expt_files/bins/dinosaur-story/many-two/2-dinosaurs-eat.png\" width=\"130\">", four: "<img src = \"expt_files/bins/dinosaur-story/many-four/0-dinosaurs-eat.png\" width=\"130\"><img src = \"expt_files/bins/dinosaur-story/many-four/1-dinosaur-eat.png\" width=\"130\"><img src = \"expt_files/bins/dinosaur-story/many-four/2-dinosaurs-eat.png\" width=\"130\"><br/><img src = \"expt_files/bins/dinosaur-story/many-four/3-dinosaurs-eat.png\" width=\"90\"><img src = \"expt_files/bins/dinosaur-story/many-four/4-dinosaurs-eat.png\" width=\"130\">"}, all: {two: "<img src = \"expt_files/bins/dinosaur-story/all-two/all-dinosaurs-eat.png\" width=\"130\"><img src = \"expt_files/bins/dinosaur-story/all-two/some-dinosaurs-didnt-eat.png\" width=\"130\">", four: ["<img src = \"expt_files/bins/dinosaur-story/all-two/all-dinosaurs-eat.png\" width=\"130\"><img src = \"expt_files/bins/dinosaur-story/all-two/some-dinosaurs-didnt-eat.png\" width=\"130\">"]}, none: {two: "<img src = \"expt_files/bins/dinosaur-story/none-two/no-dinosaurs-eat.png\" width=\"130\"><img src = \"expt_files/bins/dinosaur-story/none-two/some-dinosaurs-eat.png\" width=\"130\">", four: ["<img src = \"expt_files/bins/dinosaur-story/none-two/no-dinosaurs-eat.png\" width=\"130\"><img src = \"expt_files/bins/dinosaur-story/none-two/some-dinosaurs-eat.png\" width=\"130\">"]}},
     sentences: {every: "\"Every dinosaur didn't eat bugs.\"", numeral: "\"Two dinosaurs didn't eat bugs.\""}},
   // {item: "pigs",
   //   contexts: {two: {without: "This story features two pigs, logs, and straw. The two pigs were deciding how to build a house. First, the two pigs considered straw. They decided not to collect straw because straw is not sturdy. Then they considered logs. One pig thought that logs were sturdy, so he decided to collect logs. The other pig still thought that logs were not sturdy and didn't collect them.", with: "This story features two pigs, logs and straw. The two pigs were deciding how to build a house. First, the two pigs considered straw and decided to collect straw to build the house. However, the wind destroyed their house. Then they considered logs. One pig thought that logs are sturdy, so he decided to collect logs. The other pig thought that logs are not sturdy and didn't collect them."}, four: {without: "This story features four pigs, logs, and straw. The four pigs were deciding how to build a house. First, the four pigs considered straw. They decided not to collect straw because straw is not sturdy. Then they considered logs. Two pigs thought that logs were sturdy, so they decided to collect logs. The other two pigs still thought that logs were not sturdy and didn't collect them.", with: "This story features four pigs, logs and straw. The four pigs were deciding how to build a house. First, the four pigs considered straw and decided to collect straw to build the house. However, the wind destroyed their house. Then they considered logs. Two pigs thought that logs are sturdy, so they decided to collect logs. The other two pigs thought that logs are not sturdy and didn't collect them."}}, 
@@ -210,7 +210,7 @@ function make_slides(f) {
  //  {twowithout: {story: "", sentence: "\"\"", item: ""}, twowith: {story: "", sentence: "\"\"", item: ""}, fourwithout: {story: "", sentence: "\"\"", item: ""}, fourwith: {story: "", sentence: "\"\"", item: ""}, everywithout: {story: "", sentence: "\"\"", item: ""}, everywith: {story: "", sentence: "\"\"", item: ""}, questions: {all: "\"\"", none: "\"\"", how_many: "\"\""}},
  //  {twowithout: {story: "", sentence: "\"\"", item: ""}, twowith: {story: "", sentence: "\"\"", item: ""}, fourwithout: {story: "", sentence: "\"\"", item: ""}, fourwith: {story: "", sentence: "\"\"", item: ""}, everywithout: {story: "", sentence: "\"\"", item: ""}, everywith: {story: "", sentence: "\"\"", item: ""}, questions: {all: "\"\"", none: "\"\"", how_many: "\"\""}},
  //  {twowithout: {story: "", sentence: "\"\"", item: ""}, twowith: {story: "", sentence: "\"\"", item: ""}, fourwithout: {story: "", sentence: "\"\"", item: ""}, fourwith: {story: "", sentence: "\"\"", item: ""}, everywithout: {story: "", sentence: "\"\"", item: ""}, everywith: {story: "", sentence: "\"\"", item: ""}, questions: {all: "\"\"", none: "\"\"", how_many: "\"\" "}},
-  ]),
+  ])],
 
     //this gets run only at the beginning of the block
     present_handle : function(stim) {
