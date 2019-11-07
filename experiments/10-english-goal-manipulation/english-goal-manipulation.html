@@ -1,7 +1,7 @@
 <html>
 
 <head>
-    <title>8-English-EXPAND</title>
+    <title>10-English-goal-manipulation</title>
 
     <!--JS-->
 
@@ -65,7 +65,7 @@
 
   <p> Shark is trying to oraganizer her storybooks about XXX. She has been sorting books according to XXX.<p>
 
-  <figure>
+<!--   <figure>
     <img src="expt_files/graybin.jpg" class="bins" width = "200">
     <figcaption>0 <t id="practiceBin1" class = "bins"></t></figcaption>
   </figure>
@@ -73,7 +73,7 @@
   <figure>
     <img src="expt_files/redbin.jpg" class="bins" width = "200"> 
     <figcaption><t id="practiceNumber"></t> <t id="practiceBin2" class ="bins"></t></figcaption>
-  </figure>
+  </figure> -->
 
   <p>Shark's friend, Elephant, is helping her by reading some of the stories. Here is a story that Elephant read:<p>
     
@@ -116,7 +116,7 @@
 	<!-- <button id="play" type = "button" onclick = "playPause()">Play</button> -->
 	<!-- add 'controls' when debugging -->
 
-    <p> Shark is trying to oraganizer her storybooks about <span id="topic"></span>. She has been sorting books according to <span id="goal"></span>.<p>
+    <p> Shark is trying to oraganize her storybooks about <span id="topic"></span>. She has been sorting books according to <span id="goal"></span>.<p>
 
     <div> <img src = "expt_files/shark.jpg" class = "puppet" id = "puppet2" width="130">
       <span id="bins"></span>
@@ -125,18 +125,22 @@
     <p>Shark's friend, Elephant, is helping her by reading some of the stories. Here is a story that Elephant read:<p>
 
     <div>
-      <p id="expStory" style="font-size: 17"> </p><img src = "expt_files/elephant.jpg" class = "puppet" id = "puppet1" width="130">
-    </div>
+      <div id="expStory" class="story">
+        <p id="expStoryStory" class="storyText"> </p> 
+      </div>
+      <div class="elephant_story">
+        <img src = "expt_files/elephant.jpg" class = "puppet" id = "puppet1" width = "200">
+      </div>
 
     <div class = "center">
-      <p class="text" style="font-size: 17">Shark asked:</p>
-      <p id="expQUD" class="text" style="font-weight: bold; font-size: 17"></p>
-      <p class="text" style="font-size: 17">Elephant answered:</p>
-      <p id="testSentence" class="text" style="font-weight: bold; font-size: 17"></p>
+      <p class="text">Shark asked:</p>
+      <p id="expQUD" class="text" style="font-weight: bold"></p>
+      <p class="text">Elephant answered:</p>
+      <p id="testSentence" class="text" style="font-weight: bold"></p>
     </div>
     
 
-	  <p style="font-size: 17">Is the elephant right?</p>
+	  <p>Is the elephant right?</p>
       <table id="slider_table" class="slider_table">
         <tr><td class="left">definitely not</td><td class="right">definitely</td></tr>
         <tr><td colspan="2"><div id="single_slider" class="slider"></div></td></tr>
