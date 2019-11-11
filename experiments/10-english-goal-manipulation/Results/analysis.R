@@ -32,11 +32,14 @@ d = d[d$language=="English"|
         d$language=="Engish"|
         d$language=="English "|
         d$language=="Enligsh"|
-        d$language=="AENGLISH",]
+        d$language=="AENGLISH"|
+        d$language=="Englist"|
+        d$language=="english"|
+        d$language=="Wnglish",]
 #d = d[d$assess=="Yes",]
 unique(d$language)
 
-length(unique(d$workerid)) # n=377 (XXX)
+length(unique(d$workerid)) # n=546 (600)
 
 ################################
 
@@ -114,10 +117,10 @@ e_QUDi_plot
 
 
 #number
-summary(glm(response~context*QUD*number,data=t[t$quantifier=="numeral",]))
+summary(lmer(response~context*QUD*number+(1|item),data=t[t$quantifier=="numeral",]))
 
 #every
-summary(glm(response~context*QUD,data=t[t$quantifier=="every",]))
+summary(lmer(response~context*QUD+(1|item),data=t[t$quantifier=="every",]))
 
 
 e_combined_s = bootsSummary(data=t, measurevar="response", groupvars=c("context","number","QUD","quantifier"))
