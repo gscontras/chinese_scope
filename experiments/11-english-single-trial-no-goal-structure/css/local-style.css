@@ -11,6 +11,17 @@
 
 .puppet {
 	display: inline-block;
+	/*vertical-align: middle;*/
+	/*width: 150;
+	position: relative;
+	top: -20px;*/
+	padding: 5px;
+	transform: scaleX(-1);
+}
+
+.shark {
+	display: inline-block;
+	vertical-align: middle;
 	/*width: 150;
 	position: relative;
 	top: -20px;*/
@@ -20,6 +31,7 @@
 
 .center {
 	display: inline-block;
+	vertical-align: middle;
 }
 
 .elephant_story {
