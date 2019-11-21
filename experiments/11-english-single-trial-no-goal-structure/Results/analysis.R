@@ -3,12 +3,12 @@ library(reshape2)
 library(lme4)
 library(dplyr)
 
-setwd("~/git/chinese_scope/experiments/10-english-goal-manipulation/Submiterator-master/")
+setwd("~/git/chinese_scope/experiments/11-english-single-trial-no-goal-structure/Submiterator-master/")
 
 source("../results/helpers.r")
 
-d = read.csv("10-english-goal-manipulation-trials.csv",header=T)
-s = read.csv("10-english-goal-manipulation-subject_information.csv",header=T)
+d = read.csv("11-english-single-trial-no-goal-structure-trials.csv",header=T)
+s = read.csv("11-english-single-trial-no-goal-structure-subject_information.csv",header=T)
 
 d$language = s$language[match(d$workerid,s$workerid)]
 #d$describe = s$describe[match(d$workerid,s$workerid)]
@@ -35,11 +35,12 @@ d = d[d$language=="English"|
         d$language=="AENGLISH"|
         d$language=="Englist"|
         d$language=="english"|
-        d$language=="Wnglish",]
+        d$language=="Wnglish"|
+        d$language=="Englih",]
 #d = d[d$assess=="Yes",]
 unique(d$language)
 
-length(unique(d$workerid)) # n=546 (600)
+length(unique(d$workerid)) # n=77 (600)
 
 ################################
 
