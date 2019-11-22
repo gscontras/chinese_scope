@@ -1,84 +1,601 @@
-workerid,enjoyment,comments,education,age,gender,assess,language
-0,1,,2,31,Female,Yes,English
-1,1,A 5 year old could have done this.,-1,56,Male,Yes,Spanish
-2,1,,3,22,Female,Yes,English
-3,1,,2,26,Female,Yes,English
-4,1,NA,1,34,Female,Confused,english
-5,1,,2,31,Female,Yes,English
-6,1,,3,29,Male,Yes,English
-7,2,none,1,58,Female,Yes,english
-8,2,,3,33,Female,Yes,
-9,1,,3,56,Female,Yes,English
-10,2,"I like the bar usage for my answer.  It showed that while I believe the elephant was correct, their answer could have been more descriptive.",3,35,Male,Yes,English
-11,1,,1,24,Male,Yes,english
-12,2,,3,25,Male,Yes,English
-13,1,,0,32,Male,Yes,TAMIL
-14,2,,2,27,Female,Yes,Spanish/English
-15,2,,2,53,Female,Yes,English
-16,2,none,3,46,Male,Yes,english
-17,1,,3,32,Male,Yes,English
-18,2,,2,28,Female,Yes,English
-19,1,,2,35,Male,Yes,english
-20,1,,3,26,Male,Yes,English
-21,1,nice,2,24,Male,Yes,english
-22,1,,4,45,Female,Yes,English
-23,2,,2,37,Female,Yes,english
-24,1,,3,59,Female,Yes,English
-25,1,,3,61,Female,Yes,English
-26,2,,2,37,Male,Yes,English
-27,2,I like the story within a story.,3,38,Female,Yes,English
-28,2,good,3,30,Female,Yes,english
-29,1,"The responding sentence Elephant provided to Shark was very poor sentence structure, but it was a correct response.",2,45,Female,Yes,English
-30,2,none at this time,2,43,Female,Yes,English
-31,2,none,2,58,Female,Yes,english
-32,2,Great Study!,3,46,Female,Yes,english
-33,1,nope,2,36,Male,Yes,Englih
-34,1,,3,47,Male,Yes,English
-35,0,,1,22,Male,Yes,English
-36,2,,3,42,Female,Yes,English
-37,2,good survey ,2,28,Male,Yes,English 
-38,2,,2,31,Female,Yes,english
-39,1,,3,31,Male,Yes,english
-40,1,,2,40,Female,Yes,English
-41,2,none,3,61,Female,Yes,English
-42,2,,3,26,Female,No,English
-43,2,,1,28,Female,Yes,English
-44,2,,2,27,Male,Yes,English
-45,2,,2,37,Female,Yes,English
-46,2,,1,23,Female,No,English
-47,2,It was a little bit confusing ,2,24,Male,No,English
-48,-1,,-1,,,,
-49,1,No comment,3,39,Male,Yes,English
-50,1,its interesting,4,29,Male,Yes,English
-51,1,,3,23,Male,Yes,English
-52,1,Thanks!,2,37,Female,Yes,English
-53,1,No comments,3,47,Female,Yes,English
-54,2,"Nice work, thanks.",3,78,Male,Yes,English
-55,1,,2,28,Male,Yes,English
-56,2,,4,27,Male,Yes,English
-57,2,thank you,3,49,Female,Yes,english
-58,1,Seemed a lil tricky.,2,45,Male,Yes,English
-59,2,"While I do believe I answered the HIT correctly, the question's phrase of ""Every frog didn't jump over the rock[,]"" is somewhat confusing to me as I am not absolutely sure whether Elephant means that every (individual) frog did not jump over the rock, which would be correct as one did and one did not, or every (i.e.: all) frog(s) did not jump over the rock. ",3,21,Male,Yes,English
-60,1,,3,49,Female,Yes,English
-61,1,,4,45,Female,Yes,English
-62,2,,3,27,Male,Yes,English
-63,2,,1,30,Male,Yes,ENGLISH
-64,1,,2,49,Female,Yes,english
-65,1,It seemed as though the survey was a trick?,3,40,Female,Yes,english
-66,2,,3,35,Male,Yes,English 
-67,2,none,4,27,Male,Yes,English
-68,1,,3,37,Male,Yes,english
-69,2,,3,42,Male,Yes,English
-70,1,,3,50,Male,Yes,English
-71,2,I thought it was a fun task,3,33,Female,Yes,English
-72,1,,2,30,Male,Yes,English
-73,2,I liked the experiment but I'm not sure what the point of it was.,4,38,Male,Yes,English
-74,2,,3,23,Male,Yes,English
-75,1,,3,42,Female,Yes,english
-76,-1,,-1,,,Yes,
-77,2,,2,41,Male,Yes,english
-78,2,Cute,1,30,Female,Yes,english
-79,1,,3,32,Male,Yes,English 
-80,1,,1,30,Female,Yes,English
-81,1,,4,32,Male,Yes,English
-82,1,,2,31,Male,Yes,English
+enjoyment,age,gender,language,comments,education,assess,workerid
+1,31,Female,English,,2,Yes,0
+1,56,Male,Spanish,A 5 year old could have done this.,-1,Yes,1
+1,22,Female,English,,3,Yes,2
+-1,,,,,-1,,3
+1,38,Male,English,,2,Yes,4
+2,49,Female,english,,1,Yes,5
+2,32,Female,English,,4,No,6
+-1,,,,,-1,,7
+1,26,Female,english,,3,Yes,8
+1,26,Female,English,,2,Yes,9
+2,56,Female,English,This is an interesting hit that makes one think.  Do y'all have any plans on doing a practice run with feedback before starting the main task?  Thanks for the opportunity.  ,2,Yes,10
+2,41,Female,English,,2,Yes,11
+2,45,Female,English ,Very interesting. ,3,Yes,12
+1,32,Male,English,,3,Yes,13
+2,24,Female,English,Did I understand? I said definitely but the wording few strange. Should word it more clearly but the concept was technically right.,2,Yes,14
+2,27,Female,English,,4,Yes,15
+2,63,Female,United States,None,4,Yes,16
+2,27,Female,English,no comment,2,Yes,17
+1,34,Female,english,NA,1,Confused,18
+2,42,Female,english,,1,Yes,19
+2,27,Female,English,,3,Yes,20
+2,22,Female,English,,2,Yes,21
+1,42,Male,English,,3,Yes,22
+1,34,Male,English,,2,Yes,23
+2,57,Female,English,,2,Yes,24
+2,27,Female,english,,2,Yes,25
+2,31,Male,English,Thought provoking ,3,Yes,26
+1,34,Female,English,,4,Yes,27
+2,21,Female,English,,2,Yes,28
+1,44,Male,Filipino,,3,Yes,29
+1,41,Female,English,,2,Yes,30
+1,42,Female,English ,,3,Yes,31
+2,69,Female,English,,3,Yes,32
+2,57,Female,English,That was different.,2,Yes,33
+1,23,Female,English,,3,Yes,34
+2,42,Female,Russian,,4,Yes,35
+2,33,Male,English,Thank you for a fun and challenging survey.,2,Yes,36
+2,29,Male,english,,4,Yes,37
+2,46,Male,English,,3,Yes,38
+1,34,Female,english,,3,Yes,39
+1,45,Female,english,,1,Yes,40
+2,35,Male,English,very funny indeed to do,2,Yes,41
+1,25,Female,english,,2,No,42
+2,35,Male,English,,2,Yes,43
+2,28,Male,Russian,,2,Yes,44
+1,29,Female,english,,2,Yes,45
+2,29,Female,English,It is interesting.,3,Confused,46
+2,41,Male,English,N/A,3,Yes,47
+2,52,Male,Chinese,should have more questions and answers between those two. ,4,Yes,48
+1,28,Male,english,,2,Yes,49
+1,26,Male,English,,3,Yes,50
+2,33,Male,english,,3,Yes,51
+-1,,Female,,,-1,Yes,52
+2,38,Male,English,,4,Yes,53
+2,28,Female,English,Did I get it right?,1,Yes,54
+1,58,Male,English,I like quick and easy HITs like this. ,3,Yes,55
+2,39,Female,eNGLISH,,2,Yes,56
+1,26,Male,English,,2,Yes,57
+2,61,Male,English,Interesting.,3,Yes,58
+2,32,Male,English,Thank you for keeping it short,2,Yes,59
+1,32,Female,English,,3,,60
+2,30,Female,English,,4,Yes,61
+1,40,Female,English,,3,Yes,62
+-1,31,Male,English,,3,Yes,63
+2,39,Female,english,interesting!,1,Yes,64
+1,48,Male,United States,,4,Confused,65
+2,26,Female,United States,,3,Yes,66
+2,46,Male,English ,,2,Yes,67
+2,28,Female,english,,3,Yes,68
+1,44,Male,English,,1,Yes,69
+-1,,,,,-1,Yes,70
+2,20,Male,English,,1,Yes,71
+1,31,Female,English,,2,Yes,72
+1,25,Male,English,,1,Yes,73
+2,,,,,-1,Yes,74
+1,29,Male,English,,3,Yes,75
+2,26,Female,English,,2,Yes,76
+2,45,Female,English ,,3,Yes,77
+2,21,Male,English,,2,Yes,78
+1,,Male,,,-1,Yes,79
+1,39,Male,English,,1,Yes,80
+1,29,Male,English,,3,Yes,81
+2,25,Female,Creole ,,1,Yes,82
+2,34,Female,English,,2,Yes,83
+2,31,Male,English,Little confused as there was a sliding bar to indicate degrees of how correct the statement was in the experiment.  Should have been a simple binary answer.,3,Yes,84
+1,34,Female,English ,,2,Yes,85
+2,21,Male,English,,2,Yes,86
+2,66,Female,English,"It is hard to say for sure if all the frogs jumped over the fence. Two climbed on the rock and two didn't. However, the two that didn't might have found something smaller they could hop on, and then access the rock, and then hop the fence.",4,Yes,87
+2,49,Female,english,,3,Yes,88
+1,31,Female,English,Question answer was not incorrect because every lion did not buy a cookie but it specifically asked how many lions bought a cookie- elephant's response was not correct for question asked.,3,Yes,89
+2,58,Female,english,none,1,Yes,90
+2,33,Female,,,3,Yes,91
+2,26,Female,english,,3,Yes,92
+1,41,Female,English,No comments at this time. ,2,Yes,93
+1,64,Female,English,Not real sure of the purpose of this but it was fun! ,0,Yes,94
+1,24,Female,English,,1,Yes,95
+2,24,Male,English,,3,Yes,96
+1,19,Male,English,,2,Yes,97
+1,22,Female,English,,3,Yes,98
+1,56,Female,English,,3,Yes,99
+1,42,Male,English,I am interested and no comments,3,Yes,100
+2,26,Male,english,,3,Yes,101
+2,25,Male,English,,3,Confused,102
+2,39,Female,English,,1,Yes,103
+2,23,Female,English,,2,Yes,104
+2,24,Female,English,,3,Yes,105
+2,54,Female,English,the puzzle was puzzling ,3,Yes,106
+2,43,Female,Hindi,,3,Yes,107
+1,27,Male,English,,4,Yes,108
+2,61,Female,English,It was fun to do,1,Yes,109
+1,40,Male,Turkish,,3,Yes,110
+-1,,Male,,,-1,Yes,111
+2,48,Female,United States,Cute!,2,Yes,112
+1,26,Male,English, ,3,Yes,113
+2,54,Male,english,,2,Yes,114
+1,28,Male,English,,0,Yes,115
+2,21,Female,English,,1,Yes,116
+2,35,Male,English,"I like the bar usage for my answer.  It showed that while I believe the elephant was correct, their answer could have been more descriptive.",3,Yes,117
+1,24,Male,english,,1,Yes,118
+1,40,Female,english,,3,Yes,119
+1,63,Female,English,,2,Yes,120
+1,30,Female,English,This HIT made me feel dumb. It should have said it was going to be a sliding scale at least ,3,Confused,121
+2,37,Male,english,,2,Yes,122
+2,57,Female,English,Nice.,3,Confused,123
+1,35,Female,english,,3,Yes,124
+2,54,Male,English,Cleverly ambiguous text got me thinking.,3,Yes,125
+2,25,Male,English,,3,Yes,126
+1,32,Male,TAMIL,,0,Yes,127
+1,22,Male,english,yes,3,Yes,128
+2,27,Female,English,,2,Yes,129
+2,33,Female,english,i enjoyed  reading the shark and elephant story ,2,Yes,130
+1,33,Female,English,,2,Yes,131
+1,24,Female,English,,2,Yes,132
+1,28,Female,English,,3,Yes,133
+2,30,Female,English,good,3,Yes,134
+2,34,Male,english,,3,No,135
+2,28,Female,English,,3,Yes,136
+2,43,Female,english,,2,Yes,137
+1,30,Male,English,,3,Confused,138
+1,36,Female,English,,2,Yes,139
+2,37,Female,English,,3,Yes,140
+2,30,Female,Italian ,,3,Yes,141
+1,38,Male,United States,,3,Yes,142
+1,32,Female,English,,4,Yes,143
+2,27,Female,Spanish/English,,2,Yes,144
+2,32,Male,English,,3,Yes,145
+1,42,Female,English,I guess the elephant answered the question although he didn't give a number.,1,Yes,146
+1,26,Female,English,,3,Yes,147
+1,23,Female,english,,3,Yes,148
+2,40,Male,EN,,1,Yes,149
+1,58,Female,United States,,2,Yes,150
+2,37,Female,Russian,Funny,4,Yes,151
+1,34,Female,English,,4,Yes,152
+2,51,Female,English,interesting about the semantics of English. The subject comes first.,3,Yes,153
+2,20,Male,English,,2,Yes,154
+2,43,Female,English,,2,No,155
+-1,,Female,,Maybe Elephant should speak more clearly when trying to help out her friend,4,Yes,156
+1,23,Female,English,,1,Yes,157
+2,55,Male,English,,1,Yes,158
+2,19,Male,English,,1,Yes,159
+2,36,Male,spanish,,2,Yes,160
+1,26,Male,English and Korean,,1,Yes,161
+2,53,Female,English,,2,Yes,162
+1,52,Female,english,,3,Yes,163
+1,21,Female,English,,2,Yes,164
+1,39,Female,United States,,3,Yes,165
+2,37,Female,english,,2,Yes,166
+2,32,Male,English,,3,Yes,167
+2,32,Female,,,1,Yes,168
+1,25,Female,english,The HIT was an interesting one,1,Yes,169
+2,42,Female,English,Cute idea,3,Yes,170
+2,46,Male,english,none,3,Yes,171
+2,48,Female,English,,4,Yes,172
+2,36,Male,English,,3,Yes,173
+2,41,Male,English,,4,Yes,174
+2,32,Female,english,,4,Yes,175
+-1,,Male,,,-1,Yes,176
+2,45,Male,English,,4,Yes,177
+2,40,Female,English,,3,Yes,178
+1,63,Female,english,no,3,Yes,179
+1,32,Male,English,,3,Yes,180
+2,28,Female,English,,2,Yes,181
+1,35,Male,english,,2,Yes,182
+2,27,Male,English,,3,Yes,183
+1,33,Female,English,"None, thanks :)",4,Yes,184
+2,36,Male,English,,3,Yes,185
+2,35,Male,English,,2,Yes,186
+2,28,Female,English,,4,Yes,187
+1,26,Male,English,,2,Yes,188
+1,20,Male,English,,2,Yes,189
+2,21,Female,english,,3,Yes,190
+1,28,Male,English,,2,Yes,191
+2,22,Male,English,,2,Yes,192
+1,25,Male,Chinese,"A bit tricky since while 2 lions didn't buy the cookie, one DID buy the cookie, so Elephant is right, but could've answered better.",2,Yes,193
+2,27,Female,Chinese,,4,Yes,194
+2,36,Male,english,,3,Yes,195
+1,22,Female,English,It felt weird to use a scale bar to answer a True/False question.,3,Yes,196
+1,45,Female,English,,3,Yes,197
+1,50,Male,English,,-1,Yes,198
+2,40,Female,English,I like it.,3,Yes,199
+1,28,Female,ENGLISH,,2,Yes,200
+2,39,Male,English,Interesting HIT,3,No,201
+2,60,Female,English,,1,Yes,202
+2,48,Male,English,,3,Yes,203
+2,37,Female,English,I'd like to see more hits like this.,3,Yes,204
+2,33,Male,English,"this is a great hit because its direct and interesting. Many other hits give long winded tasks that seem a bit off target. having the sock puppets is creative and funny at least but should not be completely over used. Other ideas could just as easily be implemented based on comedy or satire like taking real movie characters and making them have realm breaking conversations. Terminator asks Batman....the scenarios would be so much more entertaining and people would maybe focus on them more than the Harry, and Bob went to the store with 3.50$ government edition lineup you always get!!",3,Yes,205
+1,24,Male,United States,,2,Yes,206
+1,46,Female,english,no additional comment ,0,Yes,207
+-1,,,,,-1,,208
+1,35,Female,English,,2,Yes,209
+2,45,Male,vietnamese,,2,Yes,210
+1,42,Female,English,,3,Yes,211
+-1,,Male,,,-1,Yes,212
+0,39,Female,ENGLISH,,2,Yes,213
+1,41,Female,English and Spanish,,2,Yes,214
+2,33,Male,English,,3,Yes,215
+1,26,Male,English,,3,Yes,216
+2,45,Male,english,,3,Yes,217
+2,50,Female,United States,NO Comments,3,Yes,218
+1,37,Female,English,Overall simple,3,Yes,219
+0,41,Female,English,,3,Yes,220
+1,42,Male,English,,4,Yes,221
+1,32,Male,English,good,3,Yes,222
+2,27,Female,English,,3,Yes,223
+1,24,Male,English,,2,Yes,224
+1,24,Male,english,nice,2,Yes,225
+1,45,Female,English,,4,Yes,226
+1,39,Female,english,,3,Yes,227
+1,37,Female,English,This hit has bad grammar.,2,Yes,228
+1,43,Female,French,n/a,3,Yes,229
+2,40,Female,United States,,3,Yes,230
+1,38,Female,English,,2,Yes,231
+2,52,Female,English,,2,Yes,232
+1,43,Female,ENGLISH,,2,Yes,233
+2,37,Female,english,,2,Yes,234
+1,59,Female,English,,3,Yes,235
+1,50,Male,ENGLISH,"The reading was clear but somewhat vague in the task or question that was asked,  I read but SOMEWHAT confused about if I answered correctly.",2,Yes,236
+1,44,Female,English ,The statement “every frog didn’t jump over” implies that none of the frogs jumped. As two frogs did jump the correct way to put this is “ not every frog jumped.”,3,Yes,237
+2,24,Female,english,liked the pics!,4,Yes,238
+1,40,Female,english,,3,Yes,239
+1,26,Female,English,,-1,Yes,240
+1,36,Male,English,,1,Yes,241
+1,31,Male,United States,,2,Yes,242
+1,61,Female,English,,3,Yes,243
+2,37,Male,English,,2,Yes,244
+1,30,Female,English,,2,Yes,245
+1,27,Female,English,,4,Yes,246
+2,22,Female,english,,3,Yes,247
+2,24,Female,English,More,3,No,248
+0,26,Female,english,,4,No,249
+2,24,Female,English,,3,No,250
+2,24,Female,English,,3,Yes,251
+2,38,Female,English,I like the story within a story.,3,Yes,252
+2,45,Male,English,,4,Yes,253
+1,42,Female,English,,3,Yes,254
+2,62,Female,English,,2,Yes,255
+2,65,Female,English,Interesting,2,Yes,256
+2,45,Female,English,,4,Yes,257
+2,46,Female,English,,2,Yes,258
+2,41,Male,English,None at all,3,No,259
+-1,,,,,-1,,260
+2,30,Female,english,good,3,Yes,261
+1,45,Female,English,"The responding sentence Elephant provided to Shark was very poor sentence structure, but it was a correct response.",2,Yes,262
+2,43,Female,English,none at this time,2,Yes,263
+2,45,Female,English,I had to reread the story. ,3,Yes,264
+0,27,Male,English,,2,Yes,265
+2,26,Female,english,this nice hit and likely,3,Yes,266
+1,22,Female,english,,1,Yes,267
+2,35,Male,English,good,3,Yes,268
+2,27,Female,English,,4,Yes,269
+2,58,Female,english,none,2,Yes,270
+2,39,Female,english,,3,Yes,271
+2,30,Female,English,,2,Yes,272
+2,46,Female,English,"I chose the middle, because the way it was worded could have been taken as none of the lions bought a cookie, or that some did, just not all. This was interesting. :)",1,Yes,273
+2,36,Female,English,Easy hit Thanks,2,Yes,274
+2,50,Male,English,,3,Yes,275
+2,47,Male,English,,3,Yes,276
+1,39,Male,English,,3,Yes,277
+2,35,Other,English,,3,Yes,278
+2,46,Female,english,Great Study!,3,Yes,279
+-1,67,Male,English.,"Elephant didn't answer the question, but was correct in what she said.",1,Yes,280
+1,43,Male,english,,3,Yes,281
+-1,,,,,-1,Yes,282
+2,38,Female,Filipino,fun,3,Yes,283
+2,63,Female,English,,3,Yes,284
+2,19,Female,ENGLISH,,2,Yes,285
+2,47,Male,United States,,3,Yes,286
+2,32,Female,english,,3,Yes,287
+1,36,Male,Englih,nope,2,Yes,288
+2,27,Female,english,,2,Yes,289
+1,39,Male,English,Higher pay would be nice.,4,No,290
+1,40,Female,English,,0,Yes,291
+1,48,Female,English,,2,Yes,292
+1,40,Male,English,,3,Yes,293
+2,63,Female,United States,"Technically, Two frogs didn't jump over the rock, but one did.",2,Yes,294
+2,32,Male,english,,2,Yes,295
+2,53,Female,english,best wishes,3,Yes,296
+1,47,Male,English,,3,Yes,297
+1,54,Female,english,Low paying HIT,2,Yes,298
+1,56,Male,English,,3,Yes,299
+2,36,Male,english,This was fun.,3,Yes,300
+1,32,Female,English,,3,Yes,301
+0,25,Male,English,,2,Yes,302
+2,68,Female,english,none,1,Yes,303
+2,34,Male,English,,3,Yes,304
+2,36,Female,english ,thanks ,3,Yes,305
+0,22,Male,English,,1,Yes,306
+2,42,Female,English,,3,Yes,307
+2,25,Male,english,good hit,3,Yes,308
+2,35,Female,"English, Filipino",,3,Yes,309
+1,31,Female,spanish,,2,Yes,310
+2,51,Female,english,I put the wrong answer by accient,1,No,311
+2,25,Female,english,,2,Yes,312
+2,25,Female,English,,2,Yes,313
+2,37,Female,English,"I read the instructions after starting the HIT, didn't really read the intro to the experiment on the very first page. ",3,No,314
+2,28,Male,English ,good survey ,2,Yes,315
+1,28,Female,English,,2,Yes,316
+1,31,Male,English,,2,Yes,317
+1,68,Male,english,The other butterfly may or may not have gone to the city.,3,Yes,318
+1,34,Male,English,N/A,3,Yes,319
+1,38,Male,english,,2,Yes,320
+1,58,Male,English,Good.,3,Confused,321
+1,23,Female,English,N/A,3,Yes,322
+2,47,Female,English,None,4,Yes,323
+2,31,Female,english,,2,Yes,324
+2,22,Female,English,,3,Yes,325
+1,21,Male,ENGLISH,,2,Yes,326
+1,28,Female,Hmong,,3,Yes,327
+1,51,Female,english,no,3,Yes,328
+2,25,Male,English,,2,Yes,329
+2,57,Female,United States,,3,Yes,330
+2,34,Male,spanish,,3,Yes,331
+2,37,Female,English,Was cute!,4,Yes,332
+1,31,Male,english,,3,Yes,333
+1,40,Female,English,,2,Yes,334
+2,61,Female,English,none,3,Yes,335
+2,26,Female,English,,3,No,336
+2,28,Male,English,Would like to see more hits like this.,3,Yes,337
+-1,,Female,,,-1,Yes,338
+2,38,Male,english,,2,Yes,339
+2,54,Male,eNGLISH,Cute storyline.,3,Yes,340
+2,39,Male,English,,3,Yes,341
+2,28,Female,English,,1,Yes,342
+1,32,Female,Korean,,2,Yes,343
+1,53,Female,Spanish,I like precise answers but the elepahant gave a non concrete but correct answer.,2,Yes,344
+2,56,Female,english,"Now that I've completed the HIT, your question of whether I did it correctly makes me wonder if I did. I'm a second-guesser...I'll wonder the entire day!",4,Yes,345
+1,59,Male,English,,2,Yes,346
+1,31,Female,English,,4,Yes,347
+1,54,Male,English,Interesting experiment.,3,Yes,348
+1,27,Female,English,It was fast and easy!,1,Yes,349
+2,29,Male,English,,2,Yes,350
+2,29,Female,english,,3,Yes,351
+2,32,Female,English,,2,Yes,352
+1,32,Male,English,,3,Yes,353
+2,50,Male,Englisg,,1,Yes,354
+1,40,Female,english,,2,Yes,355
+2,44,Female,english,,3,Yes,356
+2,61,Female,English,This hit was interesting and fun and unique.,3,Yes,357
+1,29,Female,English,,2,Yes,358
+1,20,Male,English,,3,Yes,359
+1,59,Female,English,none,3,Yes,360
+1,36,Female,English,,3,Yes,361
+2,27,Male,English,,3,Yes,362
+1,20,Female,English,na,2,Confused,363
+1,24,Male,English,"It was a little confusing, because the sentence was technically correct, but misleading, so it was difficult to know how to classify it on a sliding scale.",3,Yes,364
+2,29,Female,English,,2,Yes,365
+1,19,Male,english,,1,Yes,366
+2,32,Female,English ,Interesting I did think it was a trick question for a second.,3,Yes,367
+2,33,Male,English,survey is interesting,3,Yes,368
+2,27,Male,English,,2,Yes,369
+2,37,Female,English,,2,Yes,370
+2,23,Female,English,,1,No,371
+1,49,Male,English,,3,Yes,372
+1,37,Female,English,Thank you,1,Yes,373
+2,22,Female,English,,3,Yes,374
+0,43,Female,English,,4,Yes,375
+2,33,Female,English,,2,Yes,376
+2,34,Female,English,,3,Yes,377
+2,24,Male,English,It was a little bit confusing ,2,No,378
+1,31,Female,English,Thank you!,3,Yes,379
+2,19,Male,english,,0,Yes,380
+2,56,Female,English,,2,Yes,381
+1,45,Male,English,I don't have any other comments.,3,Yes,382
+2,46,Female,English,"this was a fun task,thanks",1,Yes,383
+2,55,Male,english,,3,Yes,384
+1,26,Male,English,,3,Yes,385
+1,30,Male,english,,1,Yes,386
+-1,,,,,-1,,387
+1,39,Male,English,No comment,3,Yes,388
+2,35,Female,English,Would love to see more of these hits. Thank you.,3,Yes,389
+1,44,Female,English ,None,3,Yes,390
+2,20,Female,English,,1,Yes,391
+2,29,Female,english,suprisingly the most entertaining hit ive ever done. love the illustartion added. reading just text can get boring,1,Yes,392
+1,47,Female,English,,3,Yes,393
+2,30,Male,English,,3,Yes,394
+2,23,Female,English,,3,Yes,395
+1,29,Male,English,its interesting,4,Yes,396
+1,35,Male,English,,4,Yes,397
+2,22,Female,English,,2,Yes,398
+2,39,Male,English,Things like this remind me just how much English is lacking as a language. I wonder if I got it right and how many other native speakers got it right or wrong.,2,Yes,399
+2,30,Female,english,,3,Yes,400
+2,29,Female,"English, Polish",,3,No,401
+2,35,Male,English,,0,Yes,402
+1,39,Female,ENGLISH,IT WAS GOOD.,4,Yes,403
+2,54,Male,English,,3,Yes,404
+1,23,Male,English,,3,Yes,405
+2,56,Male,Engliish,,3,Yes,406
+2,46,Male,English,,3,Yes,407
+2,42,Female,English,,3,Yes,408
+1,68,Male,English,Both sentences could be interpreted as being correct.,2,Yes,409
+1,35,Male,English,,1,Yes,410
+1,37,Female,English,,4,Yes,411
+2,23,Female,english,,1,Yes,412
+1,33,Female,,,4,Yes,413
+1,37,Female,English,Thanks!,2,Yes,414
+2,59,Female,"English, Polish",,3,Yes,415
+2,22,Female,English,,2,,416
+1,67,Female,English,"While a more correctly detailed answer would have been 2 lions bought a cookie and 2 lions didn't buy anything, still the answer that 2 lions didn't buy a cookie answers in a generally correct manner the question asked.",3,Yes,417
+1,44,Male,English,"I have no comments, thank you.",4,Yes,418
+1,37,Female,English,thank you for the opportunity to participate.,4,Yes,419
+2,58,Female,English,,3,Yes,420
+2,18,Male,English ,,2,Yes,421
+1,42,Female,English,No comments.,1,Yes,422
+1,47,Female,English,No comments,3,Yes,423
+2,29,Female,English,,3,Yes,424
+1,27,Male,english,,2,Yes,425
+2,54,Female,English,"I am not sure I understand the purpose of study, which I always try to do, but it was fun!",3,Yes,426
+2,26,Female,English,,3,Yes,427
+2,61,Female,English,Entertaining.,4,Yes,428
+2,41,Male,English,n/a,3,Yes,429
+2,43,Female,english,,3,Yes,430
+2,40,Female,English,,3,Yes,431
+2,78,Male,English,"Nice work, thanks.",3,Yes,432
+1,28,Male,English,,2,Yes,433
+2,31,Female,english,,2,Yes,434
+2,29,Male,English,,3,Yes,435
+2,36,Female,English,,2,Yes,436
+2,27,Male,English,gimme more,3,Yes,437
+2,23,Female,english,,2,Yes,438
+2,55,Female,United States,I like these types of Hits.  :),2,Yes,439
+1,30,Male,English,,4,Yes,440
+2,39,Female,english,Great Hit!,4,Yes,441
+2,57,Female,English,,3,Yes,442
+1,36,Female,English,,3,Yes,443
+2,32,Male,,,3,Yes,444
+1,43,Male,English,,3,Yes,445
+2,23,Female,English,,3,Yes,446
+1,42,Female,english,,2,Yes,447
+2,28,Female,ENGLISH,ELEPHANT WASN'T RIGHT OR WRONG,0,Yes,448
+2,28,Male,English,,4,Yes,449
+1,46,Male,English,Mispelled Organize in the shark's paragraph,2,Yes,450
+1,44,Female,English,none,3,Yes,451
+1,36,Female,Emglish,,2,Yes,452
+1,47,Male,English,,2,Yes,453
+1,34,Female,English,,1,Yes,454
+1,29,Male,English,,4,Yes,455
+2,47,Female,English,It was fun,2,Yes,456
+1,28,Female,English,,4,Yes,457
+2,39,Male,english,I didn't realize there was a slider. It was not visible until I started clicking around. change the texture so it show up.,2,Yes,458
+2,27,Male,English,,4,Yes,459
+2,33,Male,english,no comment,2,Yes,460
+1,37,Female,english,,3,Yes,461
+1,32,Female,english,,1,Yes,462
+2,36,Male,English,,2,Yes,463
+1,46,Female,English,,3,Yes,464
+2,25,Female,English,,3,Yes,465
+1,42,Female,English,,3,Yes,466
+0,25,Male,English,,3,Yes,467
+2,49,Female,english,thank you,3,Yes,468
+1,45,Male,English,Seemed a lil tricky.,2,Yes,469
+2,21,Male,English,"While I do believe I answered the HIT correctly, the question's phrase of ""Every frog didn't jump over the rock[,]"" is somewhat confusing to me as I am not absolutely sure whether Elephant means that every (individual) frog did not jump over the rock, which would be correct as one did and one did not, or every (i.e.: all) frog(s) did not jump over the rock. ",3,Yes,470
+1,49,Female,English,,3,Yes,471
+1,45,Female,English,,4,Yes,472
+2,49,Male,English,,1,Yes,473
+1,50,Female,United States,,2,Yes,474
+2,33,Male,English,Interesting.,2,Yes,475
+1,33,Male,english,,3,Yes,476
+2,27,Male,English,,3,Yes,477
+2,30,Male,ENGLISH,,1,Yes,478
+1,49,Female,english,,2,Yes,479
+1,36,Male,english,,0,Yes,480
+1,63,Male,English,,4,Yes,481
+2,27,Male,english,,2,Yes,482
+2,25,Male,English ,"I said partly right because we are not sure if the dino ate a bug, only that it decided to.",3,No,483
+1,31,Male,English, It was clear.,2,Yes,484
+2,22,Female,English,,2,Yes,485
+1,40,Female,english,It seemed as though the survey was a trick?,3,Yes,486
+2,54,Female,English,Interesting HIT. Not sure I quite understand the meaning of it.,2,Yes,487
+2,44,Male,English,,1,Yes,488
+1,31,Female,English ,,3,Yes,489
+1,28,Male,English,,3,Yes,490
+2,39,Male,Indonesian,-,3,Yes,491
+2,64,Male,English,The Elephant was technically correct but that was not the best answer.,2,Yes,492
+2,34,Male,English,,2,Yes,493
+1,55,Female,English,the word organize is spelled incorrectly,4,Yes,494
+2,35,Male,English ,,3,Yes,495
+2,27,Male,English,none,4,Yes,496
+1,60,Female,English,,2,Yes,497
+2,34,Male,English,,3,Yes,498
+2,21,Male,English,,2,Yes,499
+1,38,Female,english,,1,Yes,500
+2,53,Male,Czech,,4,Yes,501
+2,28,Female,English,excited,3,Yes,502
+1,37,Male,English,,3,Yes,503
+1,37,Male,english,,3,Yes,504
+2,26,Female,english,I like how clear the instructions were and how easy the task was. ,3,Yes,505
+1,40,Male,English,,4,Yes,506
+2,18,Male,english,,2,Yes,507
+1,27,Female,English,,2,Yes,508
+1,28,Female,english,,3,Yes,509
+1,30,Male,English,,4,Yes,510
+2,49,Male,english,,3,Yes,511
+2,65,Female,English,rather fun,3,Yes,512
+2,42,Male,English,,3,Yes,513
+1,21,Male,English,,2,Yes,514
+1,,Female,,,2,,515
+2,38,Female,english,,2,Yes,516
+1,23,Female,English,,3,Yes,517
+2,21,Female,English,"I had fun, there was nothing that needed to be improved.",2,Yes,518
+2,24,Male,English,scett5@yahoo.com thanks for the opportunity.,2,Yes,519
+1,37,Male,ENGLISH,,2,Yes,520
+2,34,Male,English,,1,Yes,521
+2,32,Male,English,That was a very entertaining way to present the task. Kudos to whoever designed it. I would happily read more of these in the future.,2,Yes,522
+2,35,Female,English,,4,Yes,523
+2,26,Female,English,,3,Yes,524
+2,40,Female,English,,3,Yes,525
+1,76,Female,English,Not confusing but odd. Thanks.,3,Yes,526
+2,37,Male,english,thank you for the hit.. You got me on the last question after the story i was confused but i answered what i thought was right. Have a nice day,1,Confused,527
+2,34,Male,English,,1,Yes,528
+2,37,Female,english,,3,Yes,529
+2,41,Female,English,,1,Yes,530
+1,50,Male,English,,3,Yes,531
+1,26,Female,english,,2,Yes,532
+1,29,Male,ENGLISH,,3,Yes,533
+2,29,Female,english,,1,Yes,534
+1,30,Female,United States,,2,Yes,535
+1,24,Male,English,,3,Yes,536
+2,20,Male,Russian,,3,Confused,537
+1,34,Male,english ,,3,Yes,538
+2,45,Male,English,thanks for the opportunity.,2,Yes,539
+2,33,Female,English,I thought it was a fun task,3,Yes,540
+-1,81,Male,English,I'm not sure what the purpose was but I think I did it correctly.,4,Yes,541
+2,19,Female,English,very cool HIT !,2,No,542
+2,39,Female,English,,3,Yes,543
+2,35,Female,English,,4,Yes,544
+2,21,Male,English,it's refreshing,2,Yes,545
+1,58,Female,english,,2,Yes,546
+2,48,Male,English,,2,Yes,547
+2,29,Female,english,great one,3,Yes,548
+1,30,Male,English,,2,Yes,549
+2,38,Male,English,I liked the experiment but I'm not sure what the point of it was.,4,Yes,550
+2,23,Male,English,,3,Yes,551
+1,42,Female,english,,3,Yes,552
+1,52,Male,English,,2,Yes,553
+2,23,Female,English,,3,Yes,554
+1,47,Male,English,,3,Yes,555
+2,19,Male,English and French,,2,No,556
+1,47,Male,English,,1,Yes,557
+1,37,Female,English,"none, thank you",1,Yes,558
+1,34,Male,English ,Thank you for the opportunity.,3,Yes,559
+-1,,,,,-1,,560
+1,25,Female,english,,2,Yes,561
+2,30,Female,english,,1,Yes,562
+2,36,Male,English,"I almost picked the wrong answer, and had to read the statement a second time.",3,No,563
+1,48,Male,english,no,1,Yes,564
+1,60,Female,pilipino,,3,Yes,565
+1,48,Male,English,,3,Yes,566
+-1,,,,,-1,Yes,567
+2,41,Male,english,,2,Yes,568
+2,30,Female,english,Cute,1,Yes,569
+2,43,Male,English,Thank you.,2,Yes,570
+2,36,Male,English,,3,No,571
+2,23,Female,English,,2,Yes,572
+2,45,Male,english,,3,Yes,573
+1,30,Female,English,,4,Yes,574
+1,25,Female,English,I do not have any other comments,4,Yes,575
+2,22,Female,English,"Thanks, I hope my answer will be useful to your research. ""Every butterfly didn't go to the city"" implies that no butterfly went to the city, which is why I think Elephant was wrong.",3,Yes,576
+1,29,Female,English,thanks,3,Yes,577
+1,56,Female,English,,4,Yes,578
+2,71,Male,english,,3,Yes,579
+2,28,Male,ENGLISH,NO COMMENT,3,Yes,580
+1,32,Female,english,,3,Yes,581
+2,43,Male,Mandarin,,4,Yes,582
+2,40,Female,english,fun hit.like that the animals actually PAID for food!,2,Yes,583
+1,39,Female,english,,1,Yes,584
+1,32,Male,English ,,3,Yes,585
+1,30,Female,English,,1,Yes,586
+1,32,Male,English,,4,Yes,587
+2,27,Female,english,,2,Yes,588
+-1,33,Female,english,,-1,Yes,589
+1,22,Male,English,It was relatively easy but I can see how it would confuse a non-native english speaker. ,2,Yes,590
+1,53,Male,english,,4,Yes,591
+0,40,Female,United States,,3,Yes,592
+-1,,Other,,,-1,Yes,593
+1,31,Male,English,,2,Yes,594
+1,34,Female,English,,3,Yes,595
+2,43,Male,English,weird wording,2,Yes,596
+2,41,Female,English,Very interesting.  Thank you.,3,No,597
+2,42,Male,english,,2,Yes,598
+1,28,Female,English ,,3,Yes,599

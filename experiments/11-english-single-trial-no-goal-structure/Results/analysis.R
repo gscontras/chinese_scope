@@ -36,11 +36,16 @@ d = d[d$language=="English"|
         d$language=="Englist"|
         d$language=="english"|
         d$language=="Wnglish"|
-        d$language=="Englih",]
+        d$language=="Englih"|
+        d$language=="Englisg"|
+        d$language=="Emglish"|
+        d$language=="eNGLISH"|
+        d$language=="English."|
+        d$language=="Engliish",]
 #d = d[d$assess=="Yes",]
 unique(d$language)
 
-length(unique(d$workerid)) # n=77 (600)
+length(unique(d$workerid)) # n=522 (600)
 
 ################################
 
