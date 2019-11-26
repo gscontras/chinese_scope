@@ -1,4 +1,313 @@
-assess,education,comments,gender,age,workerid,language,enjoyment
-Yes,1,,Female,32,0,English,2
-Yes,4,,Male,48,1,English,1
-Yes,2,,Male,21,2,English,2
+language,enjoyment,education,gender,age,workerid,assess,comments
+English,1,2,Male,20,0,Yes,Thank You!
+english,1,3,Male,59,1,Yes,good work in survey
+English,2,3,Male,33,2,Yes,n/a
+english,2,2,Male,48,3,Yes,
+English,1,3,Male,32,4,No,
+English,2,2,Female,35,5,Yes,
+English,2,4,Female,64,6,Yes,
+english,2,3,Male,26,7,Yes,interesting task - would do this again
+english,2,3,Male,30,8,Yes,
+english,1,3,Other,34,9,Yes,THANK YOU
+English ,1,3,Female,40,10,Yes,
+English,2,3,Female,63,11,Yes,
+English,2,3,Male,39,12,Yes,
+english,1,3,Male,25,13,Yes,
+English,2,1,Female,40,14,Yes,The questions about the reading material were thoughtful and engaging. 
+English,2,1,Female,47,15,Yes,
+English,2,1,Male,25,16,No,
+English,1,3,Female,30,17,Confused,
+english,1,3,Male,40,18,Yes,cool beans 
+English,2,3,Male,31,19,Yes,
+english,2,1,Female,65,20,Yes,"fun, if a little strange."
+english,1,4,Female,55,21,Yes,
+ENGLISH,2,3,Male,27,22,Yes,GREAT AND INTERESTING
+English,2,3,Female,39,23,Yes,very interesting
+english,1,3,Male,34,24,Yes,
+English,2,2,Female,27,25,Yes,
+English,1,2,Female,68,26,Yes,No comments. Thanks
+English,2,3,Male,26,27,Yes,
+Enlish,2,2,Female,68,28,Yes,
+English,2,4,Male,55,29,Yes,"It was engaging and fun to think about, especially the elephant's answers."
+English,2,3,Male,25,30,Yes,none
+English,2,2,Female,27,31,Yes,None
+English,1,3,Female,41,32,Yes,"At first I interpreted the questions one way, and then midway through the experiment, I interpreted them a different way. "
+English,1,-1,Male,56,33,Yes,
+English,2,1,Female,58,34,Yes,This was interesting. Thanks for the opportunity to take part in your study.
+English,1,4,Male,36,35,Yes,
+English,2,4,Female,26,36,Yes,
+English,1,3,Male,27,37,Yes,
+english,1,3,Female,24,38,Yes,
+English,1,1,Male,30,39,Yes,thanks
+English,2,3,Female,53,40,Yes,It was very fun and quick.
+English,2,4,Female,45,41,Yes,very good
+English,2,3,Male,28,42,Yes,
+English,2,3,Male,21,43,Yes,
+,-1,-1,,,44,,
+English,2,3,Female,39,45,Yes,
+english,2,3,Female,44,46,Yes,none
+English,1,1,Female,28,47,Yes,
+English,1,3,Male,27,48,Yes,
+english,1,3,Female,25,49,Yes,none
+ENGLISH,2,4,Male,27,50,Yes,NICE SURVEY
+English,1,2,Male,30,51,Yes,
+English,1,2,Female,36,52,Yes,"Most of them he was technically right, but it could be interpreted two ways."
+English,1,3,Female,33,53,Yes,
+English,2,3,Male,31,54,No,
+English,1,3,Male,39,55,Yes,
+English,1,2,Female,83,56,Yes,It was the same method I used when teaching in the second grade to see if everyone paid attention to the stories.
+"English, Greek",2,3,Female,31,57,Yes,
+English,1,1,Male,28,58,Yes,
+english,1,3,Male,28,59,Yes,
+English,1,2,Female,23,60,Yes,
+English,1,1,Female,41,61,Yes,
+english,2,4,Male,28,62,Yes,nice experiment
+English,2,1,Female,32,63,Yes,
+United States,1,2,Male,29,64,Yes,
+English,2,3,Male,29,65,Yes,good
+English,1,4,Female,46,66,Yes,
+English,2,1,Female,68,67,Yes,
+English,2,3,Female,33,68,Yes,
+,2,3,Male,56,69,Yes,
+English,1,3,Male,31,70,Yes,It was interesting and fun.
+English,2,1,Female,43,71,Yes,
+english,2,3,Male,50,72,Yes,I like it logic is a bit different than everyday items.
+ENGLISH,2,3,Male,25,73,Yes,iNTERSTING
+english,2,3,Male,39,74,Yes,
+English,2,3,Male,25,75,Yes,Interesting survey
+English,2,3,Male,37,76,Yes,Liked the hand puppets and creativity of the layout and stories :)
+English,2,4,Female,32,77,Yes,
+eniglish,2,2,Male,23,78,Yes,
+tagalog,1,3,Female,42,79,Yes,
+English,2,2,Male,44,80,Yes,i wonder if i need more English classes after that. I wish i could see the results. good survey. 
+English,2,4,Female,28,81,Yes,
+English,1,3,Male,28,82,Yes,
+English,2,1,Male,25,83,Yes,
+English,1,4,Female,33,84,Yes,
+English,2,2,Female,42,85,Yes,
+United States,1,3,Female,58,86,Yes,Enjoyed
+English,2,4,Female,,87,Yes,
+English,2,3,Male,28,88,Yes,Thank You
+romanian,2,4,Male,44,89,Yes,ty
+English,2,3,Male,28,90,No,good study.
+english,1,2,Female,51,91,Yes,
+english,2,4,Male,44,92,Yes,
+English,2,1,Female,45,93,Yes,
+English,2,3,Male,42,94,Yes,I had fun. Thanks.
+English,2,1,Male,28,95,Confused,"Some of them did answer, but they answered indirectly."
+english,1,3,Male,48,96,Yes,good
+United States,2,4,Male,47,97,Yes,
+English,1,3,Male,32,98,Yes,
+English,2,2,Female,38,99,Yes,no comments
+English,2,2,Male,66,100,Yes,none
+English,1,2,Male,21,101,No,
+English,1,1,Female,,102,Yes,
+English,2,2,Female,38,103,Yes,
+french,2,2,Female,52,104,Yes,It was a very fun hit
+United States,2,2,Female,39,105,Yes,none
+English,1,3,Male,33,106,Yes,
+english,2,3,Female,54,107,Yes,
+English,2,2,Female,34,108,Yes,
+English,2,3,Female,37,109,Yes,
+English,1,2,Female,40,110,Yes,
+english,2,3,Male,35,111,Yes,
+English,1,3,Female,25,112,Yes,I have no other comments about this experiment.
+English,2,3,Female,47,113,Yes,
+English,2,2,Male,34,114,Yes,
+English,2,3,Male,40,115,Yes,
+English,2,3,Female,37,116,Yes,Thank you. The illustrations were nice!
+english,1,3,,32,117,No,
+english,1,3,Female,52,118,Yes,
+English,1,1,Female,57,119,Yes,
+English,2,3,Male,35,120,Yes,
+English,2,3,Male,27,121,Yes,
+English,2,3,Female,35,122,Yes,
+English,2,3,Female,35,123,Yes,
+English,1,2,Male,31,124,Yes,Thanks so much.
+english,1,3,Male,24,125,No,
+English,1,3,Male,29,126,Yes,No  comments
+English,1,2,Male,25,127,Yes,
+English,1,1,Male,32,128,Yes,
+,-1,-1,,,129,,
+English,2,3,Female,40,130,Yes,
+English,1,3,Male,25,131,Yes,nothing
+English,2,2,Male,32,132,Yes,fun hit
+English,2,3,Female,25,133,Yes,Interesting survey 
+English,2,2,Male,48,134,Yes,Language HITs like this break up the monotony of doing surveys. 
+Fulani,2,3,Female,24,135,Yes,
+English,2,3,Male,32,136,Yes,Good
+English,1,3,Male,35,137,Yes,"That was confusing, but I think that was the point."
+english,1,3,Male,50,138,Yes,
+English,2,3,Female,36,139,Yes,
+English,2,2,Male,24,140,Yes,
+english,1,2,Male,30,141,Yes,
+english,2,3,Male,38,142,Yes,nice
+English,2,2,Female,34,143,Yes,
+English,2,2,Male,32,144,Yes,
+English,1,4,Male,41,145,Yes,
+english,2,1,Female,67,146,Yes,
+English,2,3,Female,25,147,Yes,
+Engilsh,1,3,Male,29,148,Yes,its very interested one
+English,2,3,Male,37,149,Yes,Fun survey Thank you :-)
+ENGLISH,1,3,Male,29,150,Yes,NO COMMENTS.
+English,2,4,Female,37,151,Yes,
+English,1,3,Male,34,152,No,
+United States,1,3,Female,35,153,Yes,
+English,2,2,Female,44,154,Yes,
+English,1,3,Female,30,155,Yes,
+English,2,3,Male,28,156,Yes,It was good study.
+English,1,3,Male,35,157,Yes,
+ENGLISH,2,3,Male,32,158,Yes,Good Study
+English,1,3,Male,31,159,Yes,
+English,2,2,Male,34,160,Yes,
+English,1,4,Female,34,161,Yes,
+English,2,3,Male,38,162,Yes,
+"Japanese, English",2,2,Female,28,163,Yes,
+English,1,2,Female,58,164,Yes,
+English,1,3,Male,35,165,Yes,
+English,2,3,Male,32,166,Yes,good
+polish,2,4,Female,41,167,Yes,
+English,2,4,Female,31,168,Yes,
+,2,3,Male,,169,Yes,
+english,1,3,Male,31,170,Yes,
+English,1,3,Male,44,171,Yes,
+English,1,2,Female,48,172,Yes,
+English,2,2,Female,56,173,Yes,I may have done the first one wrong because I was getting the hang of it. I should have answered that all 4 of the frogs did not jump over the wall (fence?) Thanks :) Good luck with your research & Happy Thanksgiving! 
+English,1,1,Male,62,174,Yes,"I hope my answers help with your study.
+"
+English,0,3,Male,36,175,Yes,What's the point of this aside from accuracy checking of workers?
+english,2,1,Female,54,176,Yes,
+english,1,1,Male,24,177,Yes,
+English,1,2,Female,59,178,Yes,I'm wondering if I answered all correctly.
+English,2,4,Female,58,179,Yes,
+english,1,2,Male,34,180,Yes,
+English,2,2,Male,22,181,Yes,
+English,1,3,Male,29,182,Yes,Nothing
+English,1,3,Female,51,183,Yes,"This did get me thinking. Some of Elephant's general statements bothered me, as it sounded as if they applied to a reality larger than the one in the book. "
+English ,2,1,Female,25,184,Yes,
+United States,2,3,Male,25,185,Yes,Interesting survey
+English,2,3,Male,34,186,No,"Last question is a poor use of language, and therefore can be taken either as:
+1) Is it true that every (lion?) opted not to buy a cookie? ...or
+2) Is it true that not every lion bought a cookie?
+
+So, could be either definitely no, or definitely yes. Can't really determine.
+
+Also, some questions heavily implied a definite answer, but never explicitly stated it, so had to adjust the confidence level accordingly.
+
+Perhaps this is part of the experiment?
+
+In any event, I enjoyed this one. Thanks!"
+english,2,3,Female,36,187,Yes,I liked this hit I felt it was different than any of the other ones I usually do.
+english,1,2,Male,26,188,Yes,
+English,2,4,Male,31,189,Yes,none
+english,1,3,Female,27,190,Yes,
+english,1,2,Male,40,191,Yes,
+English,1,3,Male,25,192,Yes,interesting
+English,1,3,Male,,193,Yes,
+English,2,2,Female,27,194,Yes,n/a
+english,2,2,Female,30,195,Yes,fun and different.
+english,2,3,Female,58,196,Yes,
+White,2,2,Female,36,197,Yes,
+English,2,3,Male,26,198,Yes,Impeach Trump
+English,0,4,Male,40,199,Yes,The infantilization of the HIT did not help.
+English,2,2,Male,31,200,Yes,
+english,1,3,Female,37,201,Yes,
+English,2,3,Female,36,202,Yes,"Nice survey, not too long, decent pay for time"
+English,1,3,Male,29,203,Yes,No comments
+English,0,3,Male,28,204,Yes,
+english,2,3,Male,25,205,Yes,
+English,1,1,Female,40,206,Yes,I enjoy the survey and have a nice day.
+English,1,4,Male,48,207,Yes,
+english,2,2,Female,54,208,Yes,
+English,2,2,Male,24,209,Yes,
+English,2,3,Female,49,210,Yes,
+English,1,3,Male,42,211,Yes,very interesting
+English,2,1,Female,32,212,Yes,
+ENGLISH,1,3,Male,28,213,Yes,
+english,1,0,Female,26,214,Yes,
+english,2,1,Female,36,215,Yes,"I LOVED THIS HIT. I WOULD LOVE TO DO MORE IN THE FUTURE..THANKS
+CRYSTALBECKETT3400@YAHOO.COM"
+,2,2,Female,33,216,Yes,none 
+English,1,2,Male,33,217,Yes,
+English,2,3,Female,69,218,Yes,
+English,1,4,Female,29,219,Yes,
+English,2,3,Female,37,220,Yes,none
+English,2,3,Female,32,221,Yes,
+English,2,2,Female,65,222,Yes,
+English,2,2,Female,23,223,Yes,
+English,1,3,Female,29,224,Yes,
+English,2,3,Male,26,225,Yes,
+English,1,3,Female,59,226,Yes,
+United States,1,3,Female,48,227,Yes,
+Montenegro,2,3,Female,38,228,Yes,
+english lang,2,3,Male,25,229,Yes,awesome
+English,1,2,Male,27,230,No,
+English,2,3,Female,33,231,Yes,
+English,1,3,Male,37,232,Yes,
+Tagalog,2,3,Female,42,233,Yes,
+English,2,2,Male,21,234,Yes,
+English,1,2,Female,48,235,Yes,
+English,1,1,Male,37,236,Yes,
+English,1,3,Female,35,237,Yes,I thought this was interesting. The little animal pictures made me laugh
+English,2,3,Male,29,238,Yes,
+english,1,3,Female,34,239,Yes,
+english,1,3,Female,38,240,Yes,
+English,2,3,Female,56,241,Yes,
+english,2,4,Female,57,242,Yes,
+English,1,3,Male,47,243,Yes,
+english,2,3,Male,35,244,No,
+English,2,2,Female,53,245,Yes,
+English,2,3,Male,24,246,Yes,N/A
+English,2,2,Female,61,247,Yes,
+English,1,2,Male,33,248,Yes,
+English,1,1,Female,33,249,Yes,
+english,2,2,Female,33,250,Yes,this was a clear and concise hit
+English,2,2,Female,61,251,Yes,"I never make things more difficult than they have to be, myself."
+English,2,3,Male,29,252,Yes,Its very interesting
+English,1,3,Female,35,253,Yes,
+English,1,1,Female,35,254,Yes,
+English,2,2,Male,26,255,Yes,
+English,2,3,Female,40,256,Yes,none
+English,1,2,Male,31,257,Yes,
+English,1,2,Female,59,258,Yes,
+english,1,3,Female,33,259,Yes,
+English,1,3,Male,32,260,Yes,
+English,1,3,Male,27,261,Yes,nice
+English,1,3,Male,22,262,Yes,
+English,2,2,Male,45,263,Yes,I liked doing this. was a nice change of pace from all the political surveys I do
+English,1,2,Female,57,264,Yes,
+English,2,3,Female,49,265,Yes,
+Japanese,2,2,Female,55,266,Confused,Thank you for having me on your study.
+English,1,2,Male,34,267,Yes,
+English,2,3,Female,36,268,Yes,none
+english,2,3,Male,29,269,Yes,good
+English,2,2,Male,30,270,Yes,none
+English,2,3,Female,57,271,Yes,
+English,2,2,Female,41,272,Yes,
+English,1,3,Male,34,273,Yes,
+English,0,4,Male,35,274,Yes,This was incredibly stupid. I'm glad it was done in just 5 minutes.
+ENGLISH,2,3,Male,24,275,Yes,good
+english,2,3,Male,41,276,Yes,very good survey
+English,0,3,Other,28,277,Yes,
+english,-1,3,Male,76,278,Yes,
+English,2,4,Male,37,279,Yes,
+ENGLISH,1,1,Female,26,280,Yes,
+English,2,1,Male,55,281,Yes,I thought this was an enjoyable hit because it makes you think.  Thank you for the opportunity to take part in it.
+English,2,4,Female,32,282,Yes,Loved it!!!
+English,2,2,Male,38,283,Yes,
+English,2,3,Female,29,284,Yes,No comments
+English,2,3,Male,41,285,Yes,
+English,1,2,Female,25,286,Yes,N/A
+english,2,3,Male,43,287,Yes,
+English,1,3,Male,50,288,Yes,
+English,2,2,Male,22,289,Yes,"Consider explaining how technical to get. If someone asks, ""did two elephants eat apples?"" technically answering ""two elephants didn't eat apples"" is incorrect without knowing that there were only 4 elephants which made some hard to answer. I feel as though I answered properly, but it's something to consider."
+English,1,3,Female,30,290,Yes,
+English,2,0,Male,31,291,Yes,that was a really interesting HIT!
+English/Spanish,2,2,Male,20,292,Yes,Fun task!
+English,2,3,Male,29,293,Yes,good
+english,1,2,Female,29,294,Yes,
+English,1,2,Female,27,295,Yes,
+english,2,3,Female,54,296,Yes,
+English,2,2,Female,37,297,Yes,
+English,2,1,Female,31,298,Yes,
+english,1,1,Male,32,299,Yes,

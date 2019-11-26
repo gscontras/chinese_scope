@@ -3,12 +3,12 @@ library(reshape2)
 library(lme4)
 library(dplyr)
 
-setwd("~/git/chinese_scope/experiments/10-english-goal-manipulation/Submiterator-master/")
+setwd("~/git/chinese_scope/experiments/12-english-multi-trial-goal-structure/Submiterator-master/")
 
 source("../results/helpers.r")
 
-d = read.csv("10-english-goal-manipulation-trials.csv",header=T)
-s = read.csv("10-english-goal-manipulation-subject_information.csv",header=T)
+d = read.csv("12-english-multi-trial-goal-structure-trials.csv",header=T)
+s = read.csv("12-english-multi-trial-goal-structure-subject_information.csv",header=T)
 
 d$language = s$language[match(d$workerid,s$workerid)]
 #d$describe = s$describe[match(d$workerid,s$workerid)]
@@ -35,15 +35,24 @@ d = d[d$language=="English"|
         d$language=="AENGLISH"|
         d$language=="Englist"|
         d$language=="english"|
-        d$language=="Wnglish",]
+        d$language=="Wnglish"|
+        d$language=="Englih"|
+        d$language=="Englisg"|
+        d$language=="Emglish"|
+        d$language=="eNGLISH"|
+        d$language=="English."|
+        d$language=="Engliish"|
+        d$language=="Enlish"|
+        d$language=="Engilsh"|
+        d$language=="eniglish",]
 #d = d[d$assess=="Yes",]
 unique(d$language)
 
-length(unique(d$workerid)) # n=546 (600)
+length(unique(d$workerid)) # n=275 (300)
 
 ################################
 
-t = d[d$trial_type=="one_slider"&d$item!="control1"&d$item!="control2"&d$item!="control3"&d$item!="control4"&d$item!="control5"&d$item!="control6"&d$item!="control7"&d$item!="control8",]
+t = d[d$trial_type=="one_slider"&d$item!="control",]
 
 #e_agg = aggregate(response~context*number*QUD*quantifier,data=t,FUN=mean)
 #e_agg
