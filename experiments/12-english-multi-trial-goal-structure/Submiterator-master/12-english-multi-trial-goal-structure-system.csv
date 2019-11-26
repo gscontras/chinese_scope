@@ -1,0 +1,4 @@
+screenH,screenW,Browser,workerid,OS
+800,1280,Chrome,0,Linux
+1080,1920,Firefox,1,Windows
+800,1280,Chrome,2,Mac
