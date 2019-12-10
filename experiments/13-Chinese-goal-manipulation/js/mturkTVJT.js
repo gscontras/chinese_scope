@@ -227,12 +227,12 @@ function make_slides(f) {
 
 		this.stim = stim; //I like to store this information in the slide so I can record it later.
 
-      exp.quantifier = _.sample(["every","numeral"])
-      // exp.quantifier = "numeral"
+      // exp.quantifier = _.sample(["every","numeral"])
+      exp.quantifier = "every"
       // exp.context = _.sample(["without","with"]);
       exp.context = "without"
-      exp.number = _.sample(["two","four"]);
-      // exp.number = "four"
+      // exp.number = _.sample(["two","four"]);
+      exp.number = "two"
       exp.QUD = _.sample(["all","none","many"])
       //here to test out different examples (i.e. link a picture and see if there
       //are any formatting difficulties)
