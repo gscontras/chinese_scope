@@ -30,7 +30,7 @@ d = d[d$language!="粤语"&
         d$language!="Cantonese",]
 unique(d$language)
 
-length(unique(d$participant_id)) # n=60 (105)
+length(unique(d$participant_id)) # n=60 (107)
 
 ################################
 
