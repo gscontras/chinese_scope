@@ -134,3 +134,18 @@ e_combined_plot = ggplot(data=e_combined_s,aes(x=number,y=response,fill=context)
   theme_bw()#+
 e_combined_plot
 #ggsave("../results/english-combined.png")
+
+
+
+e_quantifier_no_context_s = bootsSummary(data=d[d$quantifier=="every",], measurevar="response", groupvars=c("QUD"))
+
+e_quantifier_no_context_plot = ggplot(data=e_quantifier_no_context_s,aes(x=QUD,y=response))+
+  geom_bar(stat="identity",color="black",position=position_dodge())+
+  geom_errorbar(aes(ymin=bootsci_low, ymax=bootsci_high, x=QUD, width=0.1),position=position_dodge(0.9))+
+  ylim(0,1)+
+  ylab("endorsement rate") +
+  #labs(fill="early-success")+
+  #facet_wrap(~QUD)+
+  theme_bw()#+
+e_quantifier_no_context_plot
+#ggsave("../Results/english-quantifier-no-context.png")
