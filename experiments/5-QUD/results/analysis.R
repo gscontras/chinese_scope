@@ -62,4 +62,4 @@ c_QUD_plot = ggplot(data=c_QUD_s,aes(x=number,y=response,fill=context))+
   #labs("order\npreference")+
   facet_wrap(~QUD)+
   theme_bw()#+
-#ggsave("../results/english-early-success.png")
+#ggsave("../results/chinese-context.png")
