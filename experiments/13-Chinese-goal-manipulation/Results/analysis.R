@@ -27,10 +27,11 @@ d = d[d$language!="粤语"&
         d$language!="潮州"&
         d$language!="中国"&
         d$language!="廣東話"&
-        d$language!="Cantonese",]
+        d$language!="Cantonese"&
+        d$language!="吴语",]
 unique(d$language)
 
-length(unique(d$participant_id)) # n=60 (107)
+length(unique(d$participant_id)) # n=61 (107)
 
 ################################
 
