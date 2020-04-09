@@ -3,7 +3,7 @@ library(reshape2)
 library(lme4)
 library(dplyr)
 
-setwd("~/git/chinese_scope/experiments/13-chinese-goal-manipulation/results/")
+setwd("~/GitHub/chinese_scope/experiments/13-chinese-goal-manipulation/results/")
 
 source("helpers.r")
 
@@ -107,5 +107,5 @@ e_combined_plot = ggplot(data=e_combined_s,aes(x=number,y=response,fill=context)
   #labs("order\npreference")+
   facet_wrap(quantifier~QUD)+
   theme_bw()#+
-e_combined_plot
-#ggsave("../results/english-combined.png")
+e_combined_plot + theme(text = element_text(size = 35)) 
+ggsave("../results/english-combined.png")

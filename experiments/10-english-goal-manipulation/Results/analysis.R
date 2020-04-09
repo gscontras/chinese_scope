@@ -3,7 +3,7 @@ library(reshape2)
 library(lme4)
 library(dplyr)
 
-setwd("~/git/chinese_scope/experiments/10-english-goal-manipulation/Submiterator-master/")
+setwd("~/GitHub/chinese_scope/experiments/10-english-goal-manipulation/Submiterator-master/")
 
 source("../results/helpers.r")
 
@@ -147,5 +147,5 @@ e_quantifier_no_context_plot = ggplot(data=e_quantifier_no_context_s,aes(x=QUD,y
   #labs(fill="early-success")+
   #facet_wrap(~QUD)+
   theme_bw()#+
-e_quantifier_no_context_plot
-#ggsave("../Results/english-quantifier-no-context.png")
+e_quantifier_no_context_plot + theme(text = element_text(size = 35)) 
+ggsave("../Results/english-quantifier-no-context.png")
