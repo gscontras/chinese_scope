@@ -3,7 +3,7 @@ library(reshape2)
 library(lme4)
 library(dplyr)
 
-setwd("~/GitHub/chinese_scope/experiments/13-chinese-goal-manipulation/results/")
+setwd("/Users/Abimael/documents/GitHub/chinese_scope/experiments/13-chinese-goal-manipulation/results/")
 
 source("helpers.r")
 
@@ -49,9 +49,9 @@ e_quantifier_plot = ggplot(data=e_quantifier_s,aes(x=QUD,y=response))+
   ylab("endorsement rate") +
   #labs(fill="early-success")+
   #facet_wrap(~QUD)+
-  theme_bw()#+
-e_quantifier_plot
-#ggsave("chinese-quantifier.png",width=2.5,height=1.6)
+  theme_bw()#
+e_quantifier_plot + theme(text = element_text(size = 30))
+ggsave("chinese-quantifier.png")
 
 
 context_s = bootsSummary(data=t[t$quantifier=="numeral",], measurevar="response", groupvars=c("context","number"))
