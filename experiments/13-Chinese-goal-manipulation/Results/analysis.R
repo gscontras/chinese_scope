@@ -1,9 +1,9 @@
 library(ggplot2)
-library(reshape2)
+#library(reshape2)
 library(lme4)
-library(dplyr)
+#library(dplyr)
 
-setwd("/Users/Abimael/documents/GitHub/chinese_scope/experiments/13-chinese-goal-manipulation/results/")
+setwd("~/git/chinese_scope/experiments/13-chinese-goal-manipulation/results/")
 
 source("helpers.r")
 
@@ -22,6 +22,8 @@ d = d[d$language!="粤语"&
         d$language!=""&
         d$language!="CANTONESE"&
         d$language!="ENGLISH"&
+        d$language!="English"&
+        d$language!="四川话"&
         d$language!="2"&
         d$language!="你阅读了操作说明"&
         d$language!="潮州"&
@@ -31,7 +33,7 @@ d = d[d$language!="粤语"&
         d$language!="吴语",]
 unique(d$language)
 
-length(unique(d$participant_id)) # n=61 (107)
+length(unique(d$participant_id)) # n=79 (107)
 
 ################################
 
