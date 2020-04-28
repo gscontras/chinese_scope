@@ -53,7 +53,7 @@ e_quantifier_plot = ggplot(data=e_quantifier_s,aes(x=QUD,y=response))+
   #facet_wrap(~QUD)+
   theme_bw()#
 e_quantifier_plot + theme(text = element_text(size = 30))
-ggsave("chinese-quantifier.png")
+##ggsave("chinese-quantifier.png")
 
 
 context_s = bootsSummary(data=t[t$quantifier=="numeral",], measurevar="response", groupvars=c("context","number"))
