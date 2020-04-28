@@ -1,0 +1,4 @@
+,QUD,context,item,number,quantifier,response,slide_number,trial_type,yearsLived,lived,language,enjoyment,gender,age,describe,comments,education,screenW,screenH,OS,Browser,time_in_minutes,participant_id,assess,school,family,level,years,classes,college
+0,many,without,frogs,two,every,0.36,3,one_slider,-1,-1,,-1,,,-1,GREG,-1,2560,1440,Mac,Safari,0.11468333333333333,1,,,,,,,
+0,none,without,butterflies,two,every,0.35,3,one_slider,-1,-1,,-1,,,-1,GREG,-1,2560,1440,Mac,Safari,0.09758333333333333,2,,,,,,,
+0,all,without,butterflies,two,every,0.0,3,one_slider,5plus,both8,Chinese,1,Male,27,ChineseEnglish,,4,1920,1080,Windows,Chrome,1.3649333333333333,3,Yes,,,,,,
