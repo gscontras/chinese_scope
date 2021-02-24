@@ -38,77 +38,24 @@ length(unique(d$participant_id)) # n=79 (107)
 
 ################################
 
-
-
-
-
-
 e_quantifier_s = bootsSummary(data=d, measurevar="response", groupvars=c("QUD"))
 
-e_quantifier_plot = ggplot(data=e_quantifier_s,aes(x=QUD,y=response))+
-  geom_bar(stat="identity",color="black",position=position_dodge())+
+e_quantifier_s$QUD <- factor(e_quantifier_s$QUD,levels=c("none","many","all"))
+
+e_quantifier_no_context_plot = ggplot(data=e_quantifier_s,aes(x=QUD,y=response))+
+  geom_bar(stat="identity", fill = c("#d87609","#b58a08", "#879b04"),color = "black", position=position_dodge())+
   geom_errorbar(aes(ymin=bootsci_low, ymax=bootsci_high, x=QUD, width=0.1),position=position_dodge(0.9))+
   ylim(0,1)+
-  ylab("endorsement rate") +
+  ylab("human endorsement\n") +
+  xlab("\nQUD") +
   #labs(fill="early-success")+
   #facet_wrap(~QUD)+
-  theme_bw()#
-e_quantifier_plot + theme(text = element_text(size = 30))
-##ggsave("chinese-quantifier.png")
+  theme_bw()
+e_quantifier_no_context_plot #+ theme(text = element_text(size = 25))   
+#ggsave("chinese-quantifier.png",height=2,width=2.5)
 
 
-context_s = bootsSummary(data=t[t$quantifier=="numeral",], measurevar="response", groupvars=c("context","number"))
 
-context_plot = ggplot(data=context_s,aes(x=number,y=response,fill=context))+
-  geom_bar(stat="identity",color="black",position=position_dodge())+
-  geom_errorbar(aes(ymin=bootsci_low, ymax=bootsci_high, x=number, width=0.1),position=position_dodge(0.9))+
-  ylim(0,1)+
-  #labs("order\npreference")+
-  #facet_wrap(~QUD)+
-  theme_bw()#+
-#ggsave("../results/english-numeral-context.png")
-context_plot
-
-context_item_s = bootsSummary(data=t, measurevar="response", groupvars=c("context","number","item"))
-
-context_item_plot = ggplot(data=context_item_s,aes(x=number,y=response,fill=context))+
-  geom_bar(stat="identity",color="black",position=position_dodge())+
-  geom_errorbar(aes(ymin=bootsci_low, ymax=bootsci_high, x=number, width=0.1),position=position_dodge(0.9))+
-  ylim(0,1)+
-  #labs("order\npreference")+
-  facet_grid(item~.)+
-  theme_bw()#+
-#ggsave("../results/english-numeral-context-item.png")
-context_item_plot
-
-e_QUDi_s = bootsSummary(data=t, measurevar="response", groupvars=c("context","number","QUD","item"))
-
-e_QUDi_plot = ggplot(data=e_QUDi_s,aes(x=number,y=response,fill=context))+
-  geom_bar(stat="identity",color="black",position=position_dodge())+
-  geom_errorbar(aes(ymin=bootsci_low, ymax=bootsci_high, x=number, width=0.1),position=position_dodge(0.9))+
-  ylim(0,1)+
-  #labs("order\npreference")+
-  facet_grid(item~QUD)+
-  theme_bw()#+
-#ggsave("../results/english-numeral-item.png")
-e_QUDi_plot
-
-
-#every
-summary(lmer(response~context*QUD+(1|item),data=t[t$quantifier=="every",]))
-
-
-e_combined_s = bootsSummary(data=t, measurevar="response", groupvars=c("context","number","QUD","quantifier"))
-
-e_combined_plot = ggplot(data=e_combined_s,aes(x=number,y=response,fill=context))+
-  geom_bar(stat="identity",color="black",position=position_dodge())+
-  geom_errorbar(aes(ymin=bootsci_low, ymax=bootsci_high, x=number, width=0.1),position=position_dodge(0.9))+
-  ylim(0,1)+
-  #labs("order\npreference")+
-  facet_wrap(quantifier~QUD)+
-  theme_bw()#+
-e_combined_plot + theme(text = element_text(size = 35)) 
-ggsave("../results/english-combined.png")
 
 
 

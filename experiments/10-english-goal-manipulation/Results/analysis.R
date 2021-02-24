@@ -146,16 +146,17 @@ e_combined_plot
 
 e_quantifier_no_context_s = bootsSummary(data=d[d$quantifier=="every",], measurevar="response", groupvars=c("QUD"))
 
-e_quantifier_no_context_plot = ggplot(data=e_quantifier_no_context_s,aes(x=QUD,y=response))+
-  geom_bar(stat="identity",color="black",position=position_dodge())+
+e_quantifier_no_context_plot = ggplot(data=e_quantifier_no_context_s,aes(x=reorder(QUD, response),y=response))+
+  geom_bar(stat="identity", fill = c("#d87609","#b58a08", "#879b04"),color = "black", position=position_dodge())+
   geom_errorbar(aes(ymin=bootsci_low, ymax=bootsci_high, x=QUD, width=0.1),position=position_dodge(0.9))+
   ylim(0,1)+
-  ylab("endorsement rate") +
+  ylab("human endorsement\n") +
+  xlab("\nQUD") +
   #labs(fill="early-success")+
   #facet_wrap(~QUD)+
-  theme_bw()#
-e_quantifier_no_context_plot + theme(text = element_text(size = 35)) 
-#ggsave("../Results/english-quantifier-no-context.png")
+  theme_bw()
+e_quantifier_no_context_plot #+ theme(text = element_text(size = 25))   
+#ggsave("../Results/english-quantifier-no-context.png",height=2,width=2.5)
 
 
 ## fitting a model to predict results
