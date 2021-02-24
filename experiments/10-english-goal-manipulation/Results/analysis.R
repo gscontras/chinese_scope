@@ -4,6 +4,7 @@ library(lme4)
 library(dplyr)
 
 setwd("/Users/Abimael/documents/GitHub/chinese_scope/experiments/10-english-goal-manipulation/Submiterator-master/")
+setwd("~/git/chinese_scope/experiments/10-english-goal-manipulation/Submiterator-master/")
 
 source("../results/helpers.r")
 
@@ -22,6 +23,12 @@ d$gender = s$gender[match(d$workerid,s$workerid)]
 d$comments = s$comments[match(d$workerid,s$workerid)]
 d$assess = s$assess[match(d$workerid,s$workerid)]
 
+full_data <- d
+
+every_data=full_data[full_data$quantifier=="every",]
+
+d <- every_data
+
 unique(d$language)
 
 # only English as native language
@@ -39,7 +46,7 @@ d = d[d$language=="English"|
 #d = d[d$assess=="Yes",]
 unique(d$language)
 
-length(unique(d$workerid)) # n=546 (600)
+length(unique(d$workerid)) # n=263 (291)
 
 ################################
 
@@ -148,4 +155,12 @@ e_quantifier_no_context_plot = ggplot(data=e_quantifier_no_context_s,aes(x=QUD,y
   #facet_wrap(~QUD)+
   theme_bw()#
 e_quantifier_no_context_plot + theme(text = element_text(size = 35)) 
-ggsave("../Results/english-quantifier-no-context.png")
+#ggsave("../Results/english-quantifier-no-context.png")
+
+
+## fitting a model to predict results
+
+d$QUD <- factor(d$QUD,levels=c("many","all","none"))
+
+summary(lmer(response~QUD+(1|item),data=d))
+
