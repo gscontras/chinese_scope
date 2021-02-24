@@ -9,6 +9,7 @@ source("helpers.r")
 
 d = read.csv("results.csv",header=T)
 
+nrow(d) #149, recruited 140 through Prolific
 
 unique(d$language)
 
@@ -93,9 +94,6 @@ e_QUDi_plot = ggplot(data=e_QUDi_s,aes(x=number,y=response,fill=context))+
 e_QUDi_plot
 
 
-#number
-summary(lmer(response~context*QUD*number+(1|item),data=t[t$quantifier=="numeral",]))
-
 #every
 summary(lmer(response~context*QUD+(1|item),data=t[t$quantifier=="every",]))
 
@@ -111,3 +109,11 @@ e_combined_plot = ggplot(data=e_combined_s,aes(x=number,y=response,fill=context)
   theme_bw()#+
 e_combined_plot + theme(text = element_text(size = 35)) 
 ggsave("../results/english-combined.png")
+
+
+
+## fitting a model to predict results
+
+d$QUD <- factor(d$QUD,levels=c("many","all","none"))
+
+summary(lmer(response~QUD+(1|item),data=d))
