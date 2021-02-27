@@ -48,6 +48,8 @@ unique(d$language)
 
 length(unique(d$workerid)) # n=263 (291)
 
+#write.csv(d,"../Results/english-results.csv")
+
 ################################
 
 t = d[d$trial_type=="one_slider"&d$item!="control1"&d$item!="control2"&d$item!="control3"&d$item!="control4"&d$item!="control5"&d$item!="control6"&d$item!="control7"&d$item!="control8",]

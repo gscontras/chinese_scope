@@ -64,3 +64,22 @@ e_quantifier_no_context_plot #+ theme(text = element_text(size = 25))
 d$QUD <- factor(d$QUD,levels=c("many","all","none"))
 
 summary(lmer(response~QUD+(1|item),data=d))
+
+
+e = read.csv("english-results.csv",header=T)
+s = read.csv("spanish-results.csv",header=T)
+
+c = subset(d, select=c("QUD","item","response"))
+c$language = "chinese"
+
+e = subset(e, select=c("QUD","item","response"))
+e$language = "english"
+
+s = subset(s, select=c("QUD","item","response"))
+s$language = "spanish"
+
+
+
+combined = rbind(c,e,s)
+
+summary(lmer(response~language+(1|item),data=combined))
